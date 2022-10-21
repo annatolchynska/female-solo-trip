@@ -23,3 +23,22 @@ h1, h2 {
     letter-spacing: 4px;
     color: gray;
 }
+/* menu */
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu li {
+    list-style-type: none;
+    float: right;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+#menu a {
+    text-decoration: none;
+    color: gray;
+}
+#menu a:hover {
+    color: aqua;
+    background: gray;
+}
