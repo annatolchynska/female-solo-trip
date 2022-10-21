@@ -1,58 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-body{
+body {
     font-family: Lato, sans-serif;
-    font-weight:300;
+    font-weight: 300;
 }
+
 /* headings and logo*/
 header {
     display: block;
 }
+
 #logo {
     text-align: center;
     font-size: 280%;
+    background-color: rgba(0, 255, 255, .3);
 }
-h1, h2 {
+
+
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: gray;
 }
+
 /* menu */
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-
+letter-spacing: 4px;
+text-transform: lowercase;
+font-size: 130%;
 }
+
 #menu li {
     list-style-type: none;
     float: right;
     margin-left: 100px;
-    margin-right: 200px;
+    margin-right: 170px;
+    background-color: rgba(0, 255, 255, .3);
 }
+
 #menu a {
     text-decoration: none;
     color: gray;
+    font: bolder;
 }
+
 #menu a:hover {
     color: aqua;
     background: gray;
 }
+
 /*hero image and cover-text */
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #3a3a3a
 }
+
 #hero-image {
     height: 600px;
     width: 100%;
-    background:url("..//css/images/image.jpeg") no-repeat center center;
-    overflow:hidden;
+    background: url("..//css/images/image.jpeg") no-repeat center center;
+    overflow: hidden;
 }
+
 #cover-text {
     font-size: 100%;
     font-family: Oswald, sans-serif;
@@ -64,6 +81,15 @@ h1, h2 {
     padding-left: 10px;
     bottom: 10px;
     left: 85px;
-    position:absolute;
-    background-color: rgba(255,126,0, .3);
+    position: absolute;
+    background-color: rgba(255, 126, 0, .3);
+}
+/* main theme */
+#main-theme {
+    font-family: Oswald, sans-serif;
+    color: gray;
+    letter-spacing: 4px;
+padding: 30px;
+text-align: justify;
+background-color: rgba(0, 255, 255, .3);
 }
