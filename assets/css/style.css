@@ -7,5 +7,19 @@
 
 body{
     font-family: Lato, sans-serif;
-    font-weight:300
+    font-weight:300;
+}
+/* headings and logo*/
+header {
+    display: block;
+}
+#logo {
+    text-align: center;
+    font-size: 280%;
+}
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: gray;
 }
