@@ -103,7 +103,36 @@ background-color: rgba(255, 126, 0, .3);
 text-align: justify;
 font: bold;
 letter-spacing: 4px;
+list-style-type: none;
 }
 #tips h3 {
     text-decoration: underline;
+    color: #3a3a3a;
+    text-align: center;
+    padding-bottom: 20px;
+
 }
+/* community trips */
+ #community-trips h2{
+    text-align: center;
+    padding: 30px;
+ }
+#left-about {
+    
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+#right-about {
+
+    width: 33%;
+    float: right;
+    background-color: green;
+}
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: red;
+
+}
+    
