@@ -92,6 +92,7 @@ h2 {
     padding: 30px;
     text-align: justify;
     background-color: rgba(0, 255, 255, .3);
+    font-size: 150%;
 }
 
 /* lifehacks*/
@@ -135,7 +136,21 @@ h2 {
     height: 100%;
     
 }
-
+.trips {
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    background-color: #AAF0D1;
+    color: gray;
+    font-size: 150%;
+}
+#own-choice {
+    font-family: Oswald, sans-serif;
+    color: gray;
+    background-color: #AAF0D1;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 150%;
+}
 #right-about {
 
     width: 33%;
