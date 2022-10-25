@@ -33,9 +33,9 @@ h2 {
 
 /* menu */
 #menu {
-letter-spacing: 4px;
-text-transform: lowercase;
-font-size: 130%;
+    letter-spacing: 4px;
+    text-transform: lowercase;
+    font-size: 130%;
 }
 
 #menu li {
@@ -83,28 +83,32 @@ font-size: 130%;
     position: absolute;
     background-color: rgba(255, 126, 0, .3);
 }
+
 /* main theme */
 #main-theme {
     font-family: Oswald, sans-serif;
     color: #3a3a3a;
     letter-spacing: 4px;
-padding: 30px;
-text-align: justify;
-background-color: rgba(0, 255, 255, .3);
+    padding: 30px;
+    text-align: justify;
+    background-color: rgba(0, 255, 255, .3);
 }
+
 /* lifehacks*/
 .lifehacks {
     text-align: center;
     padding: 30px;
 }
+
 #tips {
-padding: 30px;
-background-color: rgba(255, 126, 0, .3);
-text-align: justify;
-font: bold;
-letter-spacing: 4px;
-list-style-type: none;
+    padding: 30px;
+    background-color: rgba(255, 126, 0, .3);
+    text-align: justify;
+    font: bold;
+    letter-spacing: 4px;
+    list-style-type: none;
 }
+
 #tips h3 {
     text-decoration: underline;
     color: #3a3a3a;
@@ -112,27 +116,54 @@ list-style-type: none;
     padding-bottom: 20px;
 
 }
+
 /* community trips */
- #community-trips h2{
-    text-align: center;
-    padding: 30px;
- }
-#left-about {
+#community-trips {
+    height: 300px;
     
+}
+
+#community-trips h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+#left-about {
     width: 33%;
     float: left;
-    background-color: blue;
+    background: url("..//css/images/romeimg.jpeg") no-repeat center center;
+    height: 100%;
+    
 }
+
 #right-about {
 
     width: 33%;
     float: right;
-    background-color: green;
+    background: url("..//css/images/iceland.webp") no-repeat center center;
+    height: 100%;
+    
 }
+
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: red;
-
+    background: url("..//css/images/bali.jpeg") no-repeat center center;
+    height: 100%;
 }
-    
+#community-trips h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Lato, sans-serif;
+    letter-spacing: 3px;
+}
+#community-trips a {
+    color:white;
+    text-decoration: none;
+    background: #3a3a3a;
+}
+#community-trips a:hover {
+background:rgba(255, 126, 0, .3);    
+}
+
+
