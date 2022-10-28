@@ -98,7 +98,7 @@ h2 {
 /* lifehacks*/
 .lifehacks {
     text-align: center;
-    padding: 30px;
+    padding: 10px;
 }
 
 #tips {
@@ -169,7 +169,7 @@ h2 {
     margin: 0 auto;
     background: url("..//css/images/bali.jpeg") no-repeat center center;
     height: 100%;
-    
+
 }
 
 #community-trips h3 {
@@ -207,6 +207,7 @@ h2 {
     letter-spacing: 3px;
     text-transform: uppercase;
     font-family: Lato, sans-serif;
+    padding-top: 30px;
 }
 
 form {
@@ -265,20 +266,42 @@ footer {
 
 /* media queries */
 /* for sreens size from 1200px and down */
-@media screen and (max-width: 800px) {
-    
-    #left-about,
-    #right-about {
-        width: 100%;
-        padding: 0;
-    }
+@media screen and (max-width: 1200px) {
 
-    #center-about {
-        width: 100%;
-        padding: 0;
+    #menu li {
+        clear: right;
+        float: right;
+        padding: 5px;
+        text-transform: uppercase;
+    }
+}
+
+/* for sreens size from 800px and down */
+@media screen and (max-width: 800px) {
+    #lets-connect {
+        margin: 20px;
+        padding: 10px;
         clear: both;
     }
-#lets-connect {
-    padding-top: 170px;
-}
+
+    #menu li {
+        clear: both;
+        float: none;
+    }
+
+    #cover-text {
+        font-size: 60%;
+        width: 300px;
+        height: 50px;
+    }
+
+    #main-theme {
+        font-size: 100%;
+        letter-spacing: 2px;
+    }
+
+    #lifehacks {
+        font-size: 100%;
+    }
+
 }
