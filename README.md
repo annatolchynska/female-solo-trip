@@ -12,9 +12,23 @@ Users of this website will be able to find all the information they need about s
 * ### The Hero image
   * The Hero image includes a picture with a text overlay to motivate the User.
   * This section introduces the user to Female Solo Travel with an eye catching image and a motto. 
+  ---
 * ### Main theme
   * The main theme section consists of paragraphs which describe the concept of Female Solo Travel. 
+  ---
 * ### Lifehacks
   * this section provides important tips for women who travel alone.
-* ### Trips
-  * this section 
+  ---
+* ### Community Trips
+  * Community Trips section gives examples of trips organised and provided by community.
+   * This section has images of provided trips and links that allow User to find out more information about chosen trip.
+   ---
+* ### Let's Connect
+ * Let's Connect section has a form to collect details from women so they can choose travel partner from The Community.
+  *the form collects User's name, email address, destination and dates of future trip.
+   * Let's connect section gives Solo Female travellers safe way to find a travel partner.
+   ---
+* ### Contacts section
+ * The Contacts section contains icons which are links to Social media of Female Solo Travel Community.
+  * This section provides telephone number and email address to get in touch. 
+  ---

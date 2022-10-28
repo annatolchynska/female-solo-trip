@@ -275,7 +275,15 @@ footer {
         text-transform: uppercase;
     }
 }
-
+/* for sreens size from 950px and down */
+@media screen and (max-width: 950px){
+    #menu li {
+        clear: right;
+        float: right;
+        padding: 5px;
+        text-transform: uppercase;
+}
+}
 /* for sreens size from 800px and down */
 @media screen and (max-width: 800px) {
     #lets-connect {
