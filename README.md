@@ -16,4 +16,28 @@ Navigation:
                 <li><a href="#lifehacks">Lifehacks <i class="fa-regular fa-pen-to-square"></i></a></li>
             </ul>
 </nav>
----
+<style>
+#menu {
+    letter-spacing: 4px;
+    text-transform: lowercase;
+    font-size: 130%;
+}
+
+#menu li {
+    list-style-type: none;
+    float: right;
+    margin-left: 100px;
+    margin-right: 170px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: gray;
+    font: bolder;
+}
+
+#menu a:hover {
+    color: #AAF0D1;
+    background: gray;
+}
+</style>
