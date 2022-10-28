@@ -25,10 +25,10 @@ Users of this website will be able to find all the information they need about s
    ---
 * ### Let's Connect
  * Let's Connect section has a form to collect details from women so they can choose travel partner from The Community.
-  *the form collects User's name, email address, destination and dates of future trip.
-   * Let's connect section gives Solo Female travellers safe way to find a travel partner.
+ * the form collects User's name, email address, destination and dates of future trip.
+ * Let's connect section gives Solo Female travellers safe way to find a travel partner.
    ---
 * ### Contacts section
  * The Contacts section contains icons which are links to Social media of Female Solo Travel Community.
-  * This section provides telephone number and email address to get in touch. 
+ * This section provides telephone number and email address to get in touch. 
   ---
