@@ -9,13 +9,6 @@ Navigation:
 * the navigation is fully responsive and in color that contrasts with background.
 * the navigation links have icons which make it easier for user to choose the section they want to go to. 
 ---
- <nav>
-            <ul id="menu">
-                <li> <a href="#lets-connect">Let's connect <i class="fa-solid fa-users"></i></a> </li>
-                <li><a href="#community-trips">Trips <i class="fa-solid fa-suitcase-rolling"></i></a></li>
-                <li><a href="#lifehacks">Lifehacks <i class="fa-regular fa-pen-to-square"></i></a></li>
-            </ul>
-</nav>
 <style>
 #menu {
     letter-spacing: 4px;
@@ -41,3 +34,10 @@ Navigation:
     background: gray;
 }
 </style>
+ <nav>
+            <ul id="menu">
+                <li> <a href="#lets-connect">Let's connect <i class="fa-solid fa-users"></i></a> </li>
+                <li><a href="#community-trips">Trips <i class="fa-solid fa-suitcase-rolling"></i></a></li>
+                <li><a href="#lifehacks">Lifehacks <i class="fa-regular fa-pen-to-square"></i></a></li>
+            </ul>
+</nav>
