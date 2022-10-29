@@ -87,12 +87,15 @@ h2 {
 /* main theme */
 #main-theme {
     font-family: Oswald, sans-serif;
-    color: #3a3a3a;
+    color: gray;
     letter-spacing: 4px;
     padding: 30px;
     text-align: justify;
     background-color: rgba(0, 255, 255, .3);
     font-size: 150%;
+}
+.main-theme {
+    padding-bottom: 20px;
 }
 
 /* lifehacks*/
@@ -107,7 +110,7 @@ h2 {
     padding: 30px;
     text-align: justify;
     font: bold;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     list-style-type: none;
     background: rgba(255, 126, 0, .3);
     font-size: 120%;
@@ -115,7 +118,7 @@ h2 {
 }
     #tips h3 {
     text-decoration: underline;
-    color:#3a3a3a;
+    color:gray;
     text-align: center;
     padding-bottom: 20px;
     font-size: 150%;

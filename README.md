@@ -8,7 +8,7 @@ Users of this website will be able to find all the information they need about s
   * featured at te top of the page, the navigation links are: "lifehacks", "trips" and "Let's connect" which link to the different sections of the same page.
   * the navigation is fully responsive and in color that contrasts with background.
   * the navigation links have icons which make it easier for user to choose the section they want to go to. 
-  <img src="./assets/css/images/navigation img.jpeg">
+  <img src="./assets/css/images/navigation img.jpeg" height="100px" width=100%>
 
 ---
 * ### The Hero image
