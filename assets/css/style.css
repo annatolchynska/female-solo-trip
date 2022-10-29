@@ -94,6 +94,7 @@ h2 {
     background-color: rgba(0, 255, 255, .3);
     font-size: 150%;
 }
+
 .main-theme {
     padding-bottom: 20px;
 }
@@ -102,7 +103,7 @@ h2 {
 .lifehacks {
     text-align: center;
     padding: 10px;
-   
+
 }
 
 #tips {
@@ -114,15 +115,19 @@ h2 {
     list-style-type: none;
     background: rgba(255, 126, 0, .3);
     font-size: 120%;
-    
+
 }
-    #tips h3 {
+
+#tips h3 {
     text-decoration: underline;
-    color:gray;
+    color: gray;
     text-align: center;
     padding-bottom: 20px;
     font-size: 150%;
+}
 
+.tips p {
+    background-color: rgba(0, 255, 255, .3);
 }
 
 /* community trips */
@@ -266,10 +271,12 @@ footer #social-links {
 .contact li {
     text-transform: lowercase;
 }
+
 #motto {
     font-size: 150%;
     color: gray;
 }
+
 /* media queries */
 /* for sreens size from 1200px and down */
 @media screen and (max-width: 1200px) {
@@ -320,23 +327,40 @@ footer #social-links {
     #lifehacks {
         font-size: 100%;
     }
-    #tips h3, #tips {
+
+    #tips h3,
+    #tips {
         font-size: 100%;
     }
 
     #lets-connect p {
         font-size: 80%;
     }
-    .trips {font-size: 100%;}
-    #own-choice {font-size: 100%;}
-    #left-about h3, #right-about h3, #center-about h3 {font-size: 80%;}
+
+    .trips {
+        font-size: 100%;
+    }
+
+    #own-choice {
+        font-size: 100%;
+    }
+
+    #left-about h3,
+    #right-about h3,
+    #center-about h3 {
+        font-size: 80%;
+    }
 }
+
 /* for sreens size from 500px and down */
-@media screen and (max-width: 500px){
-#menu li {
-    font-size: 60%;
-    float: left;
-}
-#logo {font-size: 150%;}
+@media screen and (max-width: 500px) {
+    #menu li {
+        font-size: 60%;
+        float: left;
+    }
+
+    #logo {
+        font-size: 150%;
+    }
 
 }
