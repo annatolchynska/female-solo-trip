@@ -259,7 +259,10 @@ footer #social-links {
 .contact li {
     text-transform: lowercase;
 }
-
+#motto {
+    font-size: 150%;
+    color: gray;
+}
 /* media queries */
 /* for sreens size from 1200px and down */
 @media screen and (max-width: 1200px) {
