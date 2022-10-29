@@ -86,7 +86,7 @@ h2 {
 }
 
 /* main theme */
-#main-theme {
+.main-theme {
     font-family: Oswald, sans-serif;
     color: #4B0082;
     letter-spacing: 4px;
@@ -94,10 +94,6 @@ h2 {
     text-align: justify;
     background-color: rgba(0, 255, 255, .3);
     font-size: 150%;
-}
-
-.main-theme {
-    padding-bottom: 20px;
 }
 
 /* lifehacks*/
@@ -326,7 +322,7 @@ footer #social-links {
         height: 50px;
     }
 
-    #main-theme {
+    .main-theme {
         font-size: 100%;
         letter-spacing: 2px;
     }
