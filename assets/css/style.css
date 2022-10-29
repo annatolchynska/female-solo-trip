@@ -28,7 +28,7 @@ h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: gray;
+    color: #4B0082;
 }
 
 /* menu */
@@ -47,7 +47,7 @@ h2 {
 
 #menu a {
     text-decoration: none;
-    color: gray;
+    color: #4B0082;
     font: bolder;
 }
 
@@ -59,7 +59,8 @@ h2 {
 /*hero image and cover-text */
 #cover-text,
 #cover-text h2 {
-    color: #3a3a3a
+    color: #4B0082;
+    
 }
 
 #hero-image {
@@ -87,7 +88,7 @@ h2 {
 /* main theme */
 #main-theme {
     font-family: Oswald, sans-serif;
-    color: gray;
+    color: #4B0082;
     letter-spacing: 4px;
     padding: 30px;
     text-align: justify;
@@ -103,11 +104,13 @@ h2 {
 .lifehacks {
     text-align: center;
     padding: 10px;
+    color: #4B0082;
+
 
 }
 
 #tips {
-    color: #3a3a3a;
+    color: #4B0082;
     padding: 30px;
     text-align: justify;
     font: bold;
@@ -120,7 +123,7 @@ h2 {
 
 #tips h3 {
     text-decoration: underline;
-    color: gray;
+    color: #4B0082;
     text-align: center;
     padding-bottom: 20px;
     font-size: 150%;
@@ -154,13 +157,13 @@ h2 {
     text-align: center;
     font-family: Oswald, sans-serif;
     background-color: #AAF0D1;
-    color: gray;
+    color: #4B0082;
     font-size: 150%;
 }
 
 #own-choice {
     font-family: Oswald, sans-serif;
-    color: gray;
+    color: #4B0082;
     background-color: #AAF0D1;
     text-align: center;
     letter-spacing: 4px;
@@ -213,7 +216,7 @@ h2 {
 
 
 #lets-connect p {
-    color: #3a3a3a;
+    color: #4B0082;
     text-align: center;
     font-size: 120%;
     letter-spacing: 3px;
@@ -225,8 +228,8 @@ h2 {
 form {
     font-size: 120%;
     font-family: Oswald, sans-serif;
-    color: #3a3a3a;
-    letter-spacing: 3px;
+    color: #4B0082;
+        letter-spacing: 3px;
     background-color: rgba(255, 126, 0, .3);
     margin-left: 30px;
     margin-right: 30px;
@@ -245,14 +248,15 @@ footer #social-links {
     font-size: 200%;
     margin: 5px;
     padding: 10px;
-    color: #3a3a3a;
+    color: #4B0082;
+
 }
 
 
 #submit-button {
     font-size: 80%;
     font-family: Oswald, sans-serif;
-    color: gray;
+    color: #4B0082;
     letter-spacing: 3px;
     text-transform: uppercase;
     background-color: #AAF0D1;
@@ -262,19 +266,22 @@ footer #social-links {
 .contact {
     text-align: center;
     font-family: Lato, sans-serif;
-    color: gray;
+    color: #4B0082;
     background: #AAF0D1;
     text-transform: uppercase;
     font-size: 110%;
 }
 
-.contact li {
+.contact p {
     text-transform: lowercase;
+    padding-top: 5px;
 }
 
 #motto {
     font-size: 150%;
-    color: gray;
+    color: #4B0082;
+    padding-top: 5px;
+
 }
 
 /* media queries */
