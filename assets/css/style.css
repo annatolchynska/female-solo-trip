@@ -221,11 +221,7 @@ form {
 }
 
 /* footer */
-footer {
-    height: 50px;
-}
-
-#social-links {
+footer #social-links {
     text-align: center;
 }
 
@@ -234,9 +230,9 @@ footer {
 }
 
 #social-links i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 3%;
+    font-size: 200%;
+    margin: 5px;
+    padding: 10px;
     color: #3a3a3a;
 }
 
@@ -275,15 +271,17 @@ footer {
         text-transform: uppercase;
     }
 }
+
 /* for sreens size from 950px and down */
-@media screen and (max-width: 950px){
+@media screen and (max-width: 950px) {
     #menu li {
         clear: right;
         float: right;
         padding: 5px;
         text-transform: uppercase;
+    }
 }
-}
+
 /* for sreens size from 800px and down */
 @media screen and (max-width: 800px) {
     #lets-connect {
@@ -312,4 +310,7 @@ footer {
         font-size: 100%;
     }
 
+    #lets-connect p {
+        font-size: 80%;
+    }
 }
