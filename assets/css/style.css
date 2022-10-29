@@ -99,22 +99,26 @@ h2 {
 .lifehacks {
     text-align: center;
     padding: 10px;
+   
 }
 
 #tips {
+    color: #3a3a3a;
     padding: 30px;
-    background-color: rgba(255, 126, 0, .3);
     text-align: justify;
     font: bold;
     letter-spacing: 4px;
     list-style-type: none;
+    background: rgba(255, 126, 0, .3);
+    font-size: 120%;
+    
 }
-
-#tips h3 {
+    #tips h3 {
     text-decoration: underline;
-    color: #3a3a3a;
+    color:#3a3a3a;
     text-align: center;
     padding-bottom: 20px;
+    font-size: 150%;
 
 }
 
@@ -312,8 +316,14 @@ footer #social-links {
     #lifehacks {
         font-size: 100%;
     }
+    #tips h3, #tips {
+        font-size: 100%;
+    }
 
     #lets-connect p {
         font-size: 80%;
     }
+    .trips {font-size: 100%;}
+    #own-choice {font-size: 100%;}
+    #left-about h3, #right-about h3, #center-about h3 {font-size: 80%;}
 }

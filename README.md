@@ -38,7 +38,7 @@ Users of this website will be able to find all the information they need about s
    ---
 * ### Contacts section
    * The Contacts section contains icons which are links to Social media of Female Solo Travel Community.
-   * This section provides telephone number and email address to get in touch. 
+   * This section provides telephone number and email address to get in touch and a motivational quote for user. 
    <img src="./assets/css/images/footer.png">
 
   ---
