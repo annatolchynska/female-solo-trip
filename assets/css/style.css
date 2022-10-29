@@ -300,6 +300,7 @@ footer #social-links {
     #menu li {
         clear: both;
         float: none;
+        font-size: 80%;
     }
 
     #cover-text {
@@ -326,4 +327,13 @@ footer #social-links {
     .trips {font-size: 100%;}
     #own-choice {font-size: 100%;}
     #left-about h3, #right-about h3, #center-about h3 {font-size: 80%;}
+}
+/* for sreens size from 500px and down */
+@media screen and (max-width: 500px){
+#menu li {
+    font-size: 60%;
+    float: left;
+}
+#logo {font-size: 150%;}
+
 }
