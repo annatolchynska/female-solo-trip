@@ -82,7 +82,7 @@ The Live link can be found here - [FEMALE SOLO TRAVEL](https://annatolchynska.gi
   * The text for the lifehacks was taken from [22 must know travel hacks for the solo female traveler](https://sarahshireen.com/travel-hacks-solo-female-traveller/)
   * The text for the main-theme was taken from [solo female travelers](https://www.solofemaletravelers.club/solo-female-travel-blog/) and [The Blond Abroad](https://www.theblondeabroad.com/start-here/)
   * The icons were taken from [ FontAwesome ](https://fontawesome.com/)
-  *The code for the Hero-image was taken from Love Running project.
+  * The code for the Hero-image was taken from Love Running project.
 * ### Media
   * All images were taken from [Pexels](https://www.pexels.com/)
     
