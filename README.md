@@ -53,6 +53,7 @@ Users of this website will be able to find all the information they need about s
    * The form works: every field requires to be filled, email address requires only email address, dates field requires only dates, submit button works properly.
 * ### Bugs and Unfixed Bugs
    * In "community-trips" section there are links on each image that are supposed to give detailed info about the trip. These links take user to wiitravel pages because pages that they're referred to do not exist yet.
+   * when testing I found that my links don't have discernible name, so it was fixed by adding "aria-label" to <a> elements.
    * No other bugs are found.
    ---
  ###Validator testing 
@@ -64,8 +65,8 @@ Users of this website will be able to find all the information they need about s
 * CSS
    * No errors were found passing through the oficcial (Jigsaw) validator.
 * Accessibility
-   * I made sure that background and foreground colors have a sufficient contrast ratio and is easy to read for user by running it through lighthouse in devtools.
-   <img src="./assets/css/images/lighthouse-test.png" alt="results lighthouse test screenshot">
+   * I made sure that background and foreground colors have a sufficient contrast ratio and is easy to read for user, link text and alt text for images all have discernible name by running it through lighthouse in devtools.
+   <img src="./assets/css/images/lighthouse-result.png" alt="results lighthouse test screenshot">
 
 --- 
 ### Deployment
@@ -82,7 +83,8 @@ The Live link can be found here - [FEMALE SOLO TRAVEL](https://annatolchynska.gi
   * The text for the lifehacks was taken from [22 must know travel hacks for the solo female traveler](https://sarahshireen.com/travel-hacks-solo-female-traveller/)
   * The text for the main-theme was taken from [solo female travelers](https://www.solofemaletravelers.club/solo-female-travel-blog/) and [The Blond Abroad](https://www.theblondeabroad.com/start-here/)
   * The icons were taken from [ FontAwesome ](https://fontawesome.com/)
-  * The code for the Hero-image was taken from Love Running project.
+  * The code for the Hero-image, social links in the footer-section was taken from Love Running project.
+  * Some text for ReadmeFile was taken from Sample Coding Club project and Sample Love Running project.
 * ### Media
   * All images were taken from [Pexels](https://www.pexels.com/)
     
