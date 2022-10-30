@@ -71,23 +71,26 @@ Users of this website will be able to find all the information they need about s
 ### Deployment
 * The site was deployed to GitHub pages by following steps:
    * Git Hub repository choose Settings tab and Pages
-   *From drop down menu source section pick main Branch
+   * From drop down menu source section pick main Branch
    * once the Save button been clicked the page provided the link to the completed website.
-The Live link can be found here - [FEMALE SOLO TRAVEL]("https://annatolchynska.github.io/female-solo-trip/")
+The Live link can be found here - [FEMALE SOLO TRAVEL](https://annatolchynska.github.io/female-solo-trip/)
 
 ---
 
 ### Credits
 * ### Content
-  * The text for the lifehacks was taken from [22 must know travel hacks for the solo female traveler]("https://sarahshireen.com/travel-hacks-solo-female-traveller/")
-  * The text for the main-theme was taken from [solo female travelers]("https://www.solofemaletravelers.club/solo-female-travel-blog/") and [The Blond Abroad]("https://www.theblondeabroad.com/start-here/")
-  * The icons were taken from [FontAwesome]("https://fontawesome.com/")
+  * The text for the lifehacks was taken from [22 must know travel hacks for the solo female traveler](https://sarahshireen.com/travel-hacks-solo-female-traveller/)
+  * The text for the main-theme was taken from [solo female travelers](https://www.solofemaletravelers.club/solo-female-travel-blog/) and [The Blond Abroad](https://www.theblondeabroad.com/start-here/)
+  * The icons were taken from [ FontAwesome ](https://fontawesome.com/)
   The code for the Hero-image was taken from Love Running project.
 * ### Media
-  * All images were taken from [Pexels]("https://www.pexels.com/")
+  * All images were taken from [Pexels](https://www.pexels.com/)
     
 
 
 
   
 
+
+
+[def]: "https://annatolchynska.github.io/female-solo-trip/"
