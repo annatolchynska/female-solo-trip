@@ -51,6 +51,43 @@ Users of this website will be able to find all the information they need about s
    * I made sure that the page is responsive and functions properly on all standart screen sizes by using devtools device toolbar
    * I made sure that navigation, links, lifehacks are all readable and easy to understand
    * The form works: every field requires to be filled, email address requires only email address, dates field requires only dates, submit button works properly.
-* ### Bugs
+* ### Bugs and Unfixed Bugs
+   * In "community-trips" section there are links on each image that are supposed to give detailed info about the trip. These links don't have a discernible name because pages that they're referred to do not exist yet.
+   * No other bugs are found.
+   ---
+ ###Validator testing 
+* HTML 
+   
+   * When I was testing the site by HTML validator the further erors were found:
+    <img src="./assets/css/images/html validator.png">
+    They all were fixed.
+* CSS
+   * No errors were found passing through the oficcial (Jigsaw) validator.
+* Accessibility
+   * I made sure that background and foreground colors have a sufficient contrast ratio and is easy to read for user by running it through lighthouse in devtools.
+   <img src="./assets/css/images/lighthouse-test-result.png">
+
+--- 
+### Deployment
+* The site was deployed to GitHub pages by following steps:
+   * Git Hub repository choose Settings tab and Pages
+   *From drop down menu source section pick main Branch
+   * once the Save button been clicked the page provided the link to the completed website.
+The Live link can be found here - [FEMALE SOLO TRAVEL]("https://annatolchynska.github.io/female-solo-trip/")
+
+---
+
+### Credits
+* ### Content
+  * The text for the lifehacks was taken from [22 must know travel hacks for the solo female traveler]("https://sarahshireen.com/travel-hacks-solo-female-traveller/")
+  * The text for the main-theme was taken from [solo female travelers]("https://www.solofemaletravelers.club/solo-female-travel-blog/") and [The Blond Abroad]("https://www.theblondeabroad.com/start-here/")
+  * The icons were taken from [FontAwesome]("https://fontawesome.com/")
+  The code for the Hero-image was taken from Love Running project.
+* ### Media
+  * All images were taken from [Pexels]("https://www.pexels.com/")
+    
+
+
+
   
 
