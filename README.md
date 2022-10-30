@@ -65,7 +65,7 @@ Users of this website will be able to find all the information they need about s
    * No errors were found passing through the oficcial (Jigsaw) validator.
 * Accessibility
    * I made sure that background and foreground colors have a sufficient contrast ratio and is easy to read for user by running it through lighthouse in devtools.
-   <img src="./assets/css/images/lighthouse-test-result.png">
+   <img src="./assets/css/images/lighthouse-test.png">
 
 --- 
 ### Deployment
