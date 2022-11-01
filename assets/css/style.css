@@ -22,6 +22,7 @@ header {
     background-color: rgba(170, 240, 209, .3);
     border:1px solid #AAF0D1;
     box-shadow: 10px 10px 6px gray;
+    text-shadow: 5px 5px 8px gray;
 }
 
 
@@ -40,6 +41,7 @@ h2 {
     font-size: 130%;
     overflow: hidden;
     position: relative;
+    text-shadow: 5px 5px 8px #4B0082;
   
     
 }
@@ -95,6 +97,7 @@ h2 {
     border: 1px solid #FF7E00;
     box-shadow: -15px -15px 5px gray;
     border-style: hidden;
+    text-shadow: 5px 5px 8px #4B0082;
 }
 
 /* main theme */
@@ -105,6 +108,7 @@ h2 {
     padding: 30px;
     text-align: justify;
     font-size: 150%;
+    text-shadow: 2px 2px 8px gray;
     }
 #main-theme {
     border: 1px solid #AAF0D1;
@@ -135,6 +139,8 @@ margin-left: 50px;
     border-radius: 15px;
     border-style: none;
     box-shadow: 8px 8px 5px gray;
+    text-shadow: 5px 5px 8px gray;
+    text-align: justify;
 }
 #right-tips {
     padding: 50px;
@@ -147,11 +153,14 @@ margin-right: 50px;
     border-radius: 15px;
     border-style: none;
     box-shadow: 8px 8px 5px gray;
+    text-shadow: 5px 5px 8px gray;
+    text-align: justify;
 }
 
 .tips h3 {
 border: 1px solid #4B0082;
 border-radius: 10px;
+border-style: none;
 box-shadow: 20px 20px 5px gray;
     color: #4B0082;
     text-align: center;
@@ -160,6 +169,8 @@ box-shadow: 20px 20px 5px gray;
     background-color: rgba(255, 126, 0, .3);
     margin-left: 350px;
     margin-right: 350px;
+    text-shadow: 5px 5px 8px gray;
+    
     
     }
 
@@ -279,6 +290,7 @@ form {
     border-style: none;
     box-shadow: 15px 15px 5px gray;
     border-radius: 15px;  
+    text-shadow: 5px 5px 8px gray;
     
     
 }
@@ -300,14 +312,16 @@ label {
     letter-spacing: 3px;
     text-transform: uppercase;
     background-color: #AAF0D1;
-    border: 1px solid #AAF0D1;
-    border-style: none;
+    border: 2px solid white;
+    
     box-shadow: 15px 15px 5px gray;
     margin-left: 500px;
+    text-shadow: 5px 5px 8px #4B0082;
     
 }
 #submit-button:hover {
     background: rgba(255, 126, 0, .3);
+    border: 2px solid white;
 
 }
 
@@ -335,6 +349,7 @@ footer #social-links {
     background: #AAF0D1;
     text-transform: uppercase;
     font-size: 110%;
+    box-shadow: -15px -15px 10px gray;
 }
 
 .contact p {
@@ -346,6 +361,7 @@ footer #social-links {
     font-size: 150%;
     color: #4B0082;
     padding-top: 5px;
+    text-shadow: 5px 5px 5px #4B0082;
 
 }
 
