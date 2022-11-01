@@ -20,6 +20,8 @@ header {
     text-align: center;
     font-size: 280%;
     background-color: rgba(170, 240, 209, .3);
+    border:1px solid #AAF0D1;
+    box-shadow: 10px 10px 6px gray;
 }
 
 
@@ -36,24 +38,30 @@ h2 {
     letter-spacing: 4px;
     text-transform: lowercase;
     font-size: 130%;
+    overflow: hidden;
+    position: relative;
+  
+    
 }
 
 #menu li {
     list-style-type: none;
     float: right;
     margin-left: 100px;
-    margin-right: 170px;
+    margin-right: 160px;
 }
 
 #menu a {
     text-decoration: none;
     color: #4B0082;
     font: bolder;
+
 }
 
 #menu a:hover {
     color: #AAF0D1;
     background: gray;
+    text-transform: uppercase;
 }
 
 /*hero image and cover-text */
@@ -84,6 +92,9 @@ h2 {
     left: 85px;
     position: absolute;
     background-color: rgba(255, 126, 0, .3);
+    border: 1px solid #FF7E00;
+    box-shadow: -15px -15px 5px gray;
+    border-style: hidden;
 }
 
 /* main theme */
@@ -93,9 +104,16 @@ h2 {
     letter-spacing: 4px;
     padding: 30px;
     text-align: justify;
-    background-color: rgba(0, 255, 255, .3);
     font-size: 150%;
+    }
+#main-theme {
+    border: 1px solid #AAF0D1;
+    border-radius: 20px;
+    box-shadow: 20px 20px 5px gray;
+    margin: 5px;
+    background:#AAF0D1;
 }
+
 
 /* lifehacks*/
 .lifehacks {
@@ -111,6 +129,7 @@ h2 {
     padding: 50px;
     background-color: rgba(0, 255, 255, .3);
     font-size: 120%;
+font-style: italic;
     
 }
 
