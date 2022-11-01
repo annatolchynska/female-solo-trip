@@ -124,13 +124,29 @@ h2 {
 
 }
 
-#tips {
-    
+#left-tips {
     padding: 50px;
     background-color: rgba(0, 255, 255, .3);
     font-size: 120%;
 font-style: italic;
-    
+margin-left: 50px;
+    margin-right: 450px;
+    border: 1px solid #AAF0D1;
+    border-radius: 15px;
+    border-style: none;
+    box-shadow: 8px 8px 5px gray;
+}
+#right-tips {
+    padding: 50px;
+    background-color: rgba(0, 255, 255, .3);
+    font-size: 120%;
+font-style: italic;
+margin-right: 50px;
+    margin-left: 450px;
+    border: 1px solid #AAF0D1;
+    border-radius: 15px;
+    border-style: none;
+    box-shadow: 8px 8px 5px gray;
 }
 
 .tips h3 {
@@ -148,14 +164,22 @@ box-shadow: 20px 20px 5px gray;
     }
 
 /* community trips */
-#community-trips {
-    height: 300px;
 
+#community-trips {
+    height: 600px; 
 }
+
+.text-trips {
+    border: 1px solid #AAF0D1;
+    border-style: none;
+    box-shadow: 15px 15px 5px gray;
+}
+
 
 #community-trips h2 {
     text-align: center;
     padding: 10px;
+  
 }
 
 #left-about {
@@ -173,6 +197,8 @@ box-shadow: 20px 20px 5px gray;
     background-color: #AAF0D1;
     color: #4B0082;
     font-size: 150%;
+   
+
 }
 
 #own-choice {
@@ -182,6 +208,7 @@ box-shadow: 20px 20px 5px gray;
     text-align: center;
     letter-spacing: 4px;
     font-size: 150%;
+    
 }
 
 #right-about {
@@ -237,6 +264,7 @@ box-shadow: 20px 20px 5px gray;
     text-transform: uppercase;
     font-family: Lato, sans-serif;
     padding-top: 30px;
+    text-shadow: 5px 5px 8px #4B0082;
 }
 
 form {
@@ -245,8 +273,42 @@ form {
     color: #4B0082;
         letter-spacing: 3px;
     background-color: rgba(255, 126, 0, .3);
-    margin-left: 30px;
-    margin-right: 30px;
+    padding-right: 30px;
+    padding-left: 10px;
+    border: 1px solid #FF7E00;
+    border-style: none;
+    box-shadow: 15px 15px 5px gray;
+    border-radius: 15px;  
+    
+    
+}
+label {
+    display: inline-block;
+    width: 250px;
+    text-align: right;
+
+}
+
+#submit-button {
+    margin-top: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 120%;
+    font-family: Oswald, sans-serif;
+    color: #4B0082;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background-color: #AAF0D1;
+    border: 1px solid #AAF0D1;
+    border-style: none;
+    box-shadow: 15px 15px 5px gray;
+    margin-left: 500px;
+    
+}
+#submit-button:hover {
+    background: rgba(255, 126, 0, .3);
+
 }
 
 /* footer */
@@ -263,17 +325,6 @@ footer #social-links {
     margin: 5px;
     padding: 10px;
     color: #4B0082;
-
-}
-
-
-#submit-button {
-    font-size: 80%;
-    font-family: Oswald, sans-serif;
-    color: #4B0082;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    background-color: #AAF0D1;
 
 }
 
