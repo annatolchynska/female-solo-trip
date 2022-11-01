@@ -56,7 +56,7 @@ Users of this website will be able to find all the information they need about s
    * when testing I found that my links don't have discernible name, so it was fixed by adding "aria-label" to <a> elements.
    * No other bugs are found.
    ---
- ###Validator testing 
+ ### Validator testing 
 * HTML 
    
    * When I was testing the site by HTML validator the further erors were found:

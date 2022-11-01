@@ -67,7 +67,8 @@ h2 {
     height: 600px;
     width: 100%;
     background: url("..//css/images/image.jpeg") no-repeat center center;
-    overflow: hidden;
+    background-size: cover;
+
 }
 
 #cover-text {
@@ -106,28 +107,26 @@ h2 {
 }
 
 #tips {
-    color: #4B0082;
-    padding: 30px;
-    text-align: justify;
-    font: bold;
-    letter-spacing: 3px;
-    list-style-type: none;
-    background: rgba(255, 126, 0, .3);
+    
+    padding: 50px;
+    background-color: rgba(0, 255, 255, .3);
     font-size: 120%;
-
+    
 }
 
-#tips h3 {
-    text-decoration: underline;
+.tips h3 {
+border: 1px solid #4B0082;
+border-radius: 10px;
+box-shadow: 20px 20px 5px gray;
     color: #4B0082;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 20px;
     font-size: 150%;
-}
-
-.tips p {
-    background-color: rgba(0, 255, 255, .3);
-}
+    background-color: rgba(255, 126, 0, .3);
+    margin-left: 350px;
+    margin-right: 350px;
+    
+    }
 
 /* community trips */
 #community-trips {
