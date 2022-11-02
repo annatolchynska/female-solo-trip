@@ -87,6 +87,16 @@ Users of this website will be able to find all the information they need about s
    * I made sure that background and foreground colors have a sufficient contrast ratio and is easy to read for user, link text and alt text for images all have discernible name by running it through lighthouse in devtools.
    <img src="./assets/css/images/lighthouse-result.png" alt="results lighthouse test screenshot">
 
+   ---
+
+   ### Development
+   * The idea of the website seems relevant strategy-wise. The information on site can be valuable for user as well as for business. 
+   * The site is simple, consists of one page, text, images, navigation menu and links, has all the information that attracts the user and it has potential of developing bit by bit.
+   * The next step of creating a site was building a mockup by using [Balsamiq wireframes]("https://balsamiq.com/wireframes/")
+   <img src="./assets/css/images/mockup.png" alt="screenshot of webpage's mockup">
+   * I started with creating html page and adding structure to all the sections: creating navigation menu, logo and main theme, after that - Lifehack section, community-trip, form and funally the footer with the contact info. 
+   *The final stage is to add some style to all the sections and writing Readme file.
+
 --- 
 ### Deployment
 * The site was deployed to GitHub pages by following steps:
@@ -102,7 +112,7 @@ The Live link can be found here - [FEMALE SOLO TRAVEL](https://annatolchynska.gi
   * The text for the lifehacks was taken from [22 must know travel hacks for the solo female traveler](https://sarahshireen.com/travel-hacks-solo-female-traveller/)
   * The text for the main-theme was taken from [solo female travelers](https://www.solofemaletravelers.club/solo-female-travel-blog/) and [The Blonde Abroad](https://www.theblondeabroad.com/start-here/)
   * The icons were taken from [ FontAwesome ](https://fontawesome.com/)
-  * The code for the Hero-image, social links in the footer-section was taken from Love Running project.
+  * The code for navigation menu, social links in the footer-section was taken from Love Running project.
   * Some text for ReadmeFile was taken from Sample Coding Club project and Sample Love Running project.
 * ### Media
   * All images were taken from [Pexels](https://www.pexels.com/)
