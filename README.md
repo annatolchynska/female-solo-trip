@@ -47,6 +47,9 @@ Users of this website will be able to find all the information they need about s
 
   ---
 
+  * ### Design
+    * Building this website I was using 
+
  * ### Testing
    * This webpage works in different browsers: Chrome, Safari, Opera.
    * I made sure that the page is responsive and functions properly on all standart screen sizes by using devtools device toolbar
