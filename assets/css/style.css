@@ -134,7 +134,7 @@ h2 {
     font-size: 120%;
 font-style: italic;
 margin-left: 50px;
-    margin-right: 450px;
+    margin-right: 300px;
     border: 1px solid #AAF0D1;
     border-radius: 15px;
     border-style: none;
@@ -148,7 +148,7 @@ margin-left: 50px;
     font-size: 120%;
 font-style: italic;
 margin-right: 50px;
-    margin-left: 450px;
+    margin-left: 300px;
     border: 1px solid #AAF0D1;
     border-radius: 15px;
     border-style: none;
@@ -180,11 +180,6 @@ box-shadow: 20px 20px 5px gray;
     height: 600px; 
 }
 
-.text-trips {
-    border: 1px solid #AAF0D1;
-    border-style: none;
-    box-shadow: 15px 15px 5px gray;
-}
 
 
 #community-trips h2 {
@@ -198,6 +193,7 @@ box-shadow: 20px 20px 5px gray;
     float: left;
     background: url("..//css/images/ams.jpeg") no-repeat center center;
     height: 100%;
+    display:block;
 
 
 }
@@ -282,7 +278,7 @@ form {
     font-size: 120%;
     font-family: Oswald, sans-serif;
     color: #4B0082;
-        letter-spacing: 3px;
+    letter-spacing: 3px;
     background-color: rgba(255, 126, 0, .3);
     padding-right: 30px;
     padding-left: 10px;
@@ -293,11 +289,14 @@ form {
     text-shadow: 5px 5px 8px gray;
     
     
+    
 }
 label {
     display: inline-block;
     width: 250px;
     text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -385,6 +384,10 @@ footer #social-links {
         padding: 5px;
         text-transform: uppercase;
     }
+    .tips h3 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
 
 /* for sreens size from 800px and down */
@@ -419,6 +422,7 @@ footer #social-links {
     #tips h3,
     #tips {
         font-size: 100%;
+    
     }
 
     #lets-connect p {
@@ -438,6 +442,15 @@ footer #social-links {
     #center-about h3 {
         font-size: 80%;
     }
+    #submit-button {
+        margin-left: 200px;
+    }
+    #left-tips {
+        margin-right: 120px;
+    }
+    #right-tips {
+        margin-left: 200px;
+    }
 }
 
 /* for sreens size from 500px and down */
@@ -450,5 +463,14 @@ footer #social-links {
     #logo {
         font-size: 150%;
     }
-
+#left-tips {
+    font-size: 90%;
+}
+#right-tips {font-size: 90%;}
+#submit-button {margin-left: 20px;}
+#left-tips {
+margin-right: 20px;
+}
+#right-tips {margin-left: 20px;}
+label {text-align: center;}
 }
