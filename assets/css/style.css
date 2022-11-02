@@ -12,17 +12,13 @@ body {
 }
 
 /* headings and logo*/
-header {
-    display: block;
-}
 
 #logo {
-    text-align: center;
-    font-size: 280%;
-    background-color: rgba(170, 240, 209, .3);
-    border: 1px solid #AAF0D1;
-    box-shadow: 10px 10px 6px gray;
-    text-shadow: 5px 5px 8px gray;
+    float: left;
+    font-size: 230%;
+     padding-left: 10px;
+    text-shadow: 4px 4px 3px white;
+
 }
 
 
@@ -39,20 +35,16 @@ h2 {
     letter-spacing: 4px;
     text-transform: lowercase;
     font-size: 130%;
-    overflow: hidden;
-    position: relative;
     text-shadow: 5px 5px 8px #4B0082;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-
+   
 }
-
+#menu, #logo {
+line-height: 75px;
+}
 #menu li {
     list-style-type: none;
     float: right;
-    margin-left: 100px;
-    margin-right: 160px;
+    margin-right: 30px;
 }
 
 #menu a {
@@ -93,7 +85,7 @@ h2 {
 
     overflow: hidden;
     position: relative;
-    top: 450px;
+    top: 400px;
     left: 50px;
     object-fit: cover;
     background-color: rgba(255, 126, 0, .3);
@@ -119,10 +111,11 @@ h2 {
     border-radius: 20px;
     box-shadow: 20px 20px 5px gray;
     margin: 5px;
-    background: #AAF0D1;
+    background: rgba(170, 240, 209, .3);
 }
 
-
+#main-theme h2 {text-align: center;
+text-shadow: 2px 2px #FF7E00;}
 /* lifehacks*/
 .lifehacks {
     text-align: center;

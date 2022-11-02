@@ -3,8 +3,18 @@
 ---
 
 <img src="./assets/css/images/responsiveness.png" alt="responsiveness-picture">
-Female Solo Travel website is a landing page for women looking for solo-travel tips, destinations or a travel-buddy. Female Solo Travel is a community that empowers women through travel.
+Women taking vacations alone has recently become synonymous with self-care, it is an opportunity for wellness, freedom and empowerment. Research shows that women enjoy adventure of solo-travel and like to immerse themselves in a foreign culture more so than men.
+Female Solo Travel website is a landing page for women looking for solo-travel tips, destinations and author-tours or a travel-buddy. Female Solo Travel is a community that empowers women through travel.
 Users of this website will be able to find all the information they need about solo travels. This site is targeted towards women who travel alone.
+
+---
+### Future Features
+ * Community trips section
+   * This section will have links to pages that give actual information (program, price, info of groups and places to stay) of the trip.
+   * It'll have nore information about author-tours as well and examples of some
+
+* Feedback
+   * The page will have a feedback section. This section will have an interal link in navigation menu as well. User will be able to share and read their impressions of solo trips as well as trips that were booked in our community and/or with people from community. There will be an opportunity to share personal opinion for further improvement of Female Solo Travel community.
 
 ## FEATURES
 * ### Navigation
@@ -48,7 +58,9 @@ Users of this website will be able to find all the information they need about s
   ---
 
   * ### Design
-    * Building this website I was using Lato and Oswald fonts, the colors are 
+    * Building this website I was using Lato and Oswald fonts, there is a theme of three main colors on the page, which are appealing to user's eye and have a sufficient contrast ratio. 
+    * The webpage has eye-pleasing images, which motivates the user to make this decision:to go and explore the World.
+    * The elements has 3d styling effect, that represents travelling person - constantly "floating" (moving).
 
  * ### Testing
    * This webpage works in different browsers: Chrome, Safari, Opera.
@@ -64,7 +76,7 @@ Users of this website will be able to find all the information they need about s
 * HTML 
    
    * When I was testing the site by HTML validator the further erors were found:
-    <img src="./assets/css/images/html validator.png" alt="results html validator screenshot">
+    <img src="./assets/css/images/html-validator.png" alt="results html validator screenshot">
     
     They all were fixed.
     <img src="./assets/css/images/htmlresult.png" alt="results html validator without errors">
@@ -88,7 +100,7 @@ The Live link can be found here - [FEMALE SOLO TRAVEL](https://annatolchynska.gi
 ### Credits
 * ### Content
   * The text for the lifehacks was taken from [22 must know travel hacks for the solo female traveler](https://sarahshireen.com/travel-hacks-solo-female-traveller/)
-  * The text for the main-theme was taken from [solo female travelers](https://www.solofemaletravelers.club/solo-female-travel-blog/) and [The Blond Abroad](https://www.theblondeabroad.com/start-here/)
+  * The text for the main-theme was taken from [solo female travelers](https://www.solofemaletravelers.club/solo-female-travel-blog/) and [The Blonde Abroad](https://www.theblondeabroad.com/start-here/)
   * The icons were taken from [ FontAwesome ](https://fontawesome.com/)
   * The code for the Hero-image, social links in the footer-section was taken from Love Running project.
   * Some text for ReadmeFile was taken from Sample Coding Club project and Sample Love Running project.
