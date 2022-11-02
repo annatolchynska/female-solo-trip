@@ -64,7 +64,7 @@ Users of this website will be able to find all the information they need about s
     <img src="./assets/css/images/html validator.png" alt="results html validator screenshot">
     
     They all were fixed.
-    <img src="./assets/css/images/htmlresult.png" alt="results html validator without errors>
+    <img src="./assets/css/images/htmlresult.png" alt="results html validator without errors">
 * CSS
    * No errors were found passing through the oficcial (Jigsaw) validator.
    <img src="./assets/css/images/cssresult.png" alt="results css test without errors">
