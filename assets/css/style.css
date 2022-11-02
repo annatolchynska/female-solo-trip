@@ -77,7 +77,7 @@ h2 {
     background-size: cover;
     top: 0;
     left: 0;
-   
+
 
 }
 
@@ -129,50 +129,205 @@ h2 {
     padding: 10px;
     color: #4B0082;
 
-
 }
 
-#left-tips,
-#left-tips1,
-#left-tips2,
-#left-tips3 {
-    padding: 50px;
-    background-color: rgba(0, 255, 255, .3);
-    font-size: 120%;
-    font-style: italic;
-    margin-left: 50px;
-    margin-right: 300px;
-    border: 1px solid #AAF0D1;
+.image {
+    float: left;
+    clear: both;
     border-radius: 15px;
-    border-style: none;
     box-shadow: 8px 8px 5px gray;
-    text-shadow: 5px 5px 8px gray;
-    text-align: justify;
+    margin-left: 20px;
 }
 
-#right-tips,
-#right-tips1,
-#right-tips2 {
-    padding: 50px;
-    background-color: rgba(0, 255, 255, .3);
-    font-size: 120%;
-    font-style: italic;
-    margin-right: 50px;
-    margin-left: 300px;
-    border: 1px solid #AAF0D1;
+#destination {
+    margin-left: 150px;
+    margin-right: 70px;
+    background-color: rgba(170, 240, 209, .3);
+
+}
+
+.img-hotel {
+    float: right;
+    clear: both;
+    margin-right: 20px;
     border-radius: 15px;
-    border-style: none;
-    box-shadow: 8px 8px 5px gray;
-    text-shadow: 5px 5px 8px gray;
-    text-align: justify;
+    box-shadow: -8px -8px 5px gray;
 }
 
-.tips p,
-.second-tip p,
-.third-tip p,
-.fourth-tip p,
-.fifth-tip p,
-.sixth-tip p,
+#hotel-nights {
+    margin-left: 150px;
+    margin-right: 70px;
+    background-color: rgba(170, 240, 209, .3);
+}
+
+.img-research {
+    float: left;
+    clear: both;
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 5px gray;
+}
+
+#research {
+    margin-left: 150px;
+    margin-right: 70px;
+    background-color: rgba(170, 240, 209, .3);
+    margin-bottom: 250px;
+}
+
+.img-wifi {
+    float: right;
+    clear: both;
+    margin-right: 20px;
+    border-radius: 15px;
+    box-shadow: -8px 8px 5px gray;
+}
+
+#wifi {
+    margin-left: 150px;
+    margin-right: 70px;
+    background-color: rgba(170, 240, 209, .3);
+    margin-bottom: 250px;
+}
+
+.img-passport {
+    float: left;
+    clear: both;
+    margin-left: 15px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 5px gray;
+}
+
+#passport {
+    margin-left: 200px;
+    margin-right: 60px;
+    background-color: rgba(170, 240, 209, .3);
+    margin-bottom: 150px;
+}
+.img-suitcase {
+    float: right;
+    clear: both;
+    margin-right: 15px;
+    border-radius: 15px;
+    box-shadow: -8px 8px 5px gray;
+}
+#suitcase {
+    margin-left: 100px;
+    margin-right:150px;
+    background-color: rgba(170, 240, 209, .3);
+    margin-bottom: 100px;
+}
+.img-danger {
+    float: left;
+    clear: both;
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: -8px 8px 5px gray;
+}
+#danger {
+    margin-left: 100px;
+    margin-right:150px;
+    background-color: rgba(170, 240, 209, .3);
+    margin-bottom: 250px;   
+}
+.tips p {
+    border: 1px solid #4B0082;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 20px 20px 5px gray;
+    color: #4B0082;
+    text-align: center;
+    padding: 20px;
+    font-size: 150%;
+    background-color: rgba(255, 126, 0, .3);
+    text-shadow: 10px 10px 5px gray;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 30px;
+}
+
+.second-tips p {
+    border: 1px solid #4B0082;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 20px -20px 5px gray;
+    color: #4B0082;
+    text-align: center;
+    padding: 20px;
+    font-size: 150%;
+    background-color: rgba(255, 126, 0, .3);
+    text-shadow: 10px 10px 5px gray;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+
+}
+
+.third-tip p {
+    border: 1px solid #4B0082;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 20px 20px 5px gray;
+    color: #4B0082;
+    text-align: center;
+    padding: 20px;
+    font-size: 150%;
+    background-color: rgba(255, 126, 0, .3);
+    text-shadow: 10px 10px 5px gray;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 250px;
+
+}
+
+.fourth-tip p {
+    border: 1px solid #4B0082;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 20px 20px 5px gray;
+    color: #4B0082;
+    text-align: center;
+    padding: 20px;
+    font-size: 150%;
+    background-color: rgba(255, 126, 0, .3);
+    text-shadow: 10px 10px 5px gray;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 200px;
+
+}
+
+.fifth-tip p {
+    border: 1px solid #4B0082;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 20px 20px 5px gray;
+    color: #4B0082;
+    text-align: center;
+    padding: 20px;
+    font-size: 150%;
+    background-color: rgba(255, 126, 0, .3);
+    text-shadow: 10px 10px 5px gray;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+}
+.sixth-tip p {
+    border: 1px solid #4B0082;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 20px 20px 5px gray;
+    color: #4B0082;
+    text-align: center;
+    padding: 20px;
+    font-size: 150%;
+    background-color: rgba(255, 126, 0, .3);
+    text-shadow: 10px 10px 5px gray;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 250px;
+
+}
 .seventh-tip p {
     border: 1px solid #4B0082;
     border-radius: 10px;
@@ -183,13 +338,12 @@ h2 {
     padding: 20px;
     font-size: 150%;
     background-color: rgba(255, 126, 0, .3);
+    text-shadow: 10px 10px 5px gray;
     margin-left: 350px;
     margin-right: 350px;
-    text-shadow: 5px 5px 8px gray;
-
+    margin-top: 200px;
 
 }
-
 /* community trips */
 
 
@@ -235,31 +389,31 @@ h2 {
 }
 
 
-    
+
 
 
 #top-about {
 
     background: url("..//css/images/ams.jpeg") no-repeat;
     height: 600px;
-   background-size: cover;
+    background-size: cover;
     margin: 70px;
     box-shadow: -15px 15px 8px gray;
     border-radius: 15px;
     margin-bottom: 30px;
-    
+
 
 
 
 }
 
 #center-about {
-    
+
     background: url("..//css/images/iceland.jpeg") no-repeat;
     height: 600px;
-background-size: cover;
- margin: 70px;
- box-shadow: -15px 15px 8px gray;
+    background-size: cover;
+    margin: 70px;
+    box-shadow: -15px 15px 8px gray;
     border-radius: 15px;
     margin-bottom: 30px;
 }
@@ -272,18 +426,17 @@ background-size: cover;
     background-size: cover;
     margin: 70px;
     box-shadow: -15px 15px 8px gray;
-       border-radius: 15px;
-       margin-bottom: 30px;
-   
-   
- 
-   
- 
+    border-radius: 15px;
+    margin-bottom: 30px;
+
+
+
+
+
 }
 
 
-#top-about-text
- {
+#top-about-text {
     color: #4B0082;
     font-size: 150%;
     border: 1px solid #AAF0D1;
@@ -296,8 +449,10 @@ background-size: cover;
     border-radius: 25px;
     box-shadow: 5px 5px 8px gray;
     text-shadow: 5px 5px 8px gray;
-    text-align:center;}
-  #center-about-text {
+    text-align: center;
+}
+
+#center-about-text {
     color: #4B0082;
     font-size: 150%;
     border: 1px solid #AAF0D1;
@@ -310,10 +465,10 @@ background-size: cover;
     border-radius: 25px;
     box-shadow: 5px 5px 8px gray;
     text-shadow: 5px 5px 8px gray;
-    text-align:center;
-  }
-    
-  #bottom-about-text{
+    text-align: center;
+}
+
+#bottom-about-text {
     color: #4B0082;
     font-size: 150%;
     border: 1px solid #AAF0D1;
@@ -326,10 +481,10 @@ background-size: cover;
     border-radius: 25px;
     box-shadow: 5px 5px 8px gray;
     text-shadow: 5px 5px 8px gray;
-    text-align:center;
-    
-  }
-    
+    text-align: center;
+
+}
+
 
 /*form let's connect */
 #lets-connect {
