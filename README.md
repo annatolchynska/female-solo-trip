@@ -48,7 +48,7 @@ Users of this website will be able to find all the information they need about s
   ---
 
   * ### Design
-    * Building this website I was using 
+    * Building this website I was using Lato and Oswald fonts, the colors are 
 
  * ### Testing
    * This webpage works in different browsers: Chrome, Safari, Opera.
