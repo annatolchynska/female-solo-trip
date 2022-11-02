@@ -127,7 +127,7 @@ h2 {
 
 }
 
-#left-tips {
+#left-tips, #left-tips1, #left-tips2, #left-tips3 {
     padding: 50px;
     background-color: rgba(0, 255, 255, .3);
     font-size: 120%;
@@ -141,7 +141,7 @@ margin-left: 50px;
     text-shadow: 5px 5px 8px gray;
     text-align: justify;
 }
-#right-tips {
+#right-tips, #right-tips1, #right-tips2 {
     padding: 50px;
     background-color: rgba(0, 255, 255, .3);
     font-size: 120%;
