@@ -11,13 +11,13 @@ Users of this website will be able to find all the information they need about s
   * featured at te top of the page, the navigation links are: "lifehacks", "trips" and "Let's connect" which link to the different sections of the same page.
   * the navigation is fully responsive and in color that contrasts with background.
   * the navigation links have icons which make it easier for user to choose the section they want to go to. 
-  <img src="./assets/css/images/navigation-menu.png" alt="navmenu-picture">
+  <img src="./assets/css/images/navmenu.png" alt="navmenu-picture">
 
 ---
 * ### The Hero image
   * The Hero image includes a picture with a text overlay to motivate the User.
   * This section introduces the user to Female Solo Travel with an eye catching image and a motto. 
-  <img src="./assets/css/images/main-theme.png" alt="main-theme image">
+  <img src="./assets/css/images/hero-image.png" alt="main-theme image">
 
   ---
 * ### Main theme
@@ -25,6 +25,7 @@ Users of this website will be able to find all the information they need about s
   ---
 * ### Lifehacks
   * this section provides important tips for women who travel alone.
+  <img src="./assets/css/images/lifehacks.png" alt="image of Lifehacks section">
   ---
 * ### Community Trips
   * Community Trips section gives examples of trips organised and provided by community.
@@ -36,7 +37,7 @@ Users of this website will be able to find all the information they need about s
    * Let's Connect section has a form to collect details from women so they can choose travel partner from The Community.
    * the form collects User's name, email address, destination and dates of future trip.
    * Let's connect section gives Solo Female travellers safe way to find a travel partner.
-   <img src="./assets/css/images/lets-connect.png" alt="le's connect section screenshot">
+   <img src="./assets/css/images/lets connect.png" alt="le's connect section screenshot">
 
    ---
 * ### Contacts section
@@ -61,9 +62,12 @@ Users of this website will be able to find all the information they need about s
    
    * When I was testing the site by HTML validator the further erors were found:
     <img src="./assets/css/images/html validator.png" alt="results html validator screenshot">
+    
     They all were fixed.
+    <img src="./assets/css/images/htmlresult.png" alt="results html validator without errors>
 * CSS
    * No errors were found passing through the oficcial (Jigsaw) validator.
+   <img src="./assets/css/images/cssresult.png" alt="results css test without errors">
 * Accessibility
    * I made sure that background and foreground colors have a sufficient contrast ratio and is easy to read for user, link text and alt text for images all have discernible name by running it through lighthouse in devtools.
    <img src="./assets/css/images/lighthouse-result.png" alt="results lighthouse test screenshot">
