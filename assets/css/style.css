@@ -187,58 +187,82 @@ box-shadow: 20px 20px 5px gray;
   
 }
 
-#left-about {
-    width: 33%;
-    float: left;
+#top-about {
+    width: 100%;
+    float:left;
     background: url("..//css/images/ams.jpeg") no-repeat center center;
     height: 100%;
-    display:block;
-
-
+    padding: 0;
+    margin: 15px;
+    
 }
+
 
 .trips {
     text-align: center;
     font-family: Oswald, sans-serif;
-    background-color: #AAF0D1;
     color: #4B0082;
     font-size: 150%;
+    border-radius: 15px;
+    text-shadow: 5px 5px 8px gray;
    
 
 }
-
+#text-trips {
+    border: 1px solid #4B0082;
+border-radius: 20px;
+border-style: none;
+box-shadow: 20px 20px 5px gray;
+padding: 20px;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 15px;
+background: #AAF0D1;
+}
 #own-choice {
     font-family: Oswald, sans-serif;
     color: #4B0082;
-    background-color: #AAF0D1;
     text-align: center;
     letter-spacing: 4px;
     font-size: 150%;
+    border-radius: 15px;
+    text-shadow: 5px 5px 8px gray;
     
 }
 
-#right-about {
+#bottom-about {
 
-    width: 33%;
-    float: right;
+    width: 100%;
+    float: left;
     background: url("..//css/images/iceland.webp") no-repeat center center;
     height: 100%;
+    clear: both;
+    padding: 0;
+    margin: 15px;
+    
 
 }
 
 #center-about {
-    width: 33%;
-    margin: 0 auto;
+    width: 100%;
     background: url("..//css/images/bali.jpeg") no-repeat center center;
     height: 100%;
+    clear:both;
+    float:left;
+    margin: 15px;
+    text-align: right;
+    border: 2px solid white;
+    border-radius: 15px;
+    
 
 }
 
 #community-trips h3 {
-    text-align: center;
+    float: right;
     text-transform: uppercase;
     font-family: Lato, sans-serif;
     letter-spacing: 3px;
+
 }
 
 #community-trips a {
