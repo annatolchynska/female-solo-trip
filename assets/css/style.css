@@ -88,11 +88,10 @@ h2 {
     letter-spacing: 4px;
     width: 550px;
     height: 90px;
-    padding-top: 20px;
-    padding-left: 10px;
-    bottom: 10px;
-    left: 85px;
+    bottom: 85px;
+    overflow: hidden;
     position: absolute;
+    object-fit: cover;
     background-color: rgba(255, 126, 0, .3);
     border: 1px solid #FF7E00;
     box-shadow: -15px -15px 5px gray;
@@ -287,6 +286,8 @@ form {
     box-shadow: 15px 15px 5px gray;
     border-radius: 15px;  
     text-shadow: 5px 5px 8px gray;
+    margin-left: 50px;
+    margin-right: 50px;
     
     
     
