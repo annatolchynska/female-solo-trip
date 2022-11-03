@@ -27,11 +27,6 @@ Users of this website will be able to find all the information they need about s
 
     ---
 
-### Development
-
-  * I started with creating html page and adding structure to all the sections: creating navigation menu, logo and main-theme, after that - Lifehack section, community-trip section, form and finally the footer with the contact info. 
-   * The final stage is to add some style to all the sections and writing Readme file.
-
 ### Future Features
  * Community trips section
     * This section will have links to pages that give actual information (program, price, info of groups and places to stay) of the trip.
@@ -66,7 +61,6 @@ Users of this website will be able to find all the information they need about s
   * Community Trips section gives examples of trips organised and provided by community.
    * This section has images of provided trips and links that allow User to find out more information about chosen trip or to get in touch and organize exclusive tours.
    <img src="./assets/css/images/community-trips.png" alt="community-trips screenshot">
-
    ---
 * ### Let's Connect
    * Let's Connect section has a form to collect details from women so they can choose travel partner from The Community.

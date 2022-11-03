@@ -105,7 +105,7 @@ h2 {
 }
 
 #main-theme {
-    border: 2px solid white;
+    border: 3px solid white;
     border-radius: 20px;
     box-shadow: 20px 20px 5px gray;
     margin: 5px;
@@ -141,6 +141,7 @@ h2 {
     text-align: justify;
     padding-left: 250px;
     padding-right: 50px;
+    border: 3px solid white;
 
 }
 
@@ -159,6 +160,7 @@ h2 {
     padding-left: 50px;
     padding-right: 320px;
     text-align: justify;
+    border: 3px solid white;
 }
 
 .img-research {
@@ -177,6 +179,7 @@ h2 {
     padding-left: 250px;
     padding-right: 70px;
     text-align: justify;
+    border: 3px solid white;
 }
 
 .img-wifi {
@@ -195,6 +198,7 @@ h2 {
     padding-left: 70px;
     padding-right: 300px;
     text-align: justify;
+    border: 3px solid white;
 }
 
 .img-passport {
@@ -213,6 +217,7 @@ h2 {
     padding-left: 150px;
     padding-right: 70px;
     text-align: justify;
+    border: 3px solid white;
 }
 
 .img-suitcase {
@@ -231,6 +236,7 @@ h2 {
     text-align: justify;
     padding-left: 50px;
     padding-right: 250px;
+    border: 3px solid white;
 }
 
 .img-danger {
@@ -246,12 +252,13 @@ h2 {
     margin-right: 150px;
     background-color: rgba(170, 240, 209, .3);
     margin-bottom: 250px;
+    border: 3px solid white;
 }
 
 .tips p {
-    border: 1px solid #4B0082;
+    border: 3px solid white;
+    ;
     border-radius: 10px;
-    border-style: none;
     box-shadow: 20px 20px 10px gray;
     color: #4B0082;
     text-align: center;
@@ -265,9 +272,9 @@ h2 {
 }
 
 .second-tips p {
-    border: 1px solid #4B0082;
+    border: 3px solid white;
+    ;
     border-radius: 10px;
-    border-style: none;
     box-shadow: 20px -20px 10px gray;
     color: #4B0082;
     text-align: center;
@@ -281,9 +288,9 @@ h2 {
 }
 
 .third-tip p {
-    border: 1px solid #4B0082;
+    border: 3px solid white;
+    ;
     border-radius: 10px;
-    border-style: none;
     box-shadow: 20px 20px 5px gray;
     color: #4B0082;
     text-align: center;
@@ -297,9 +304,8 @@ h2 {
 }
 
 .fourth-tip p {
-    border: 1px solid #4B0082;
+    border: 3px solid white;
     border-radius: 10px;
-    border-style: none;
     box-shadow: 20px 20px 5px gray;
     color: #4B0082;
     text-align: center;
@@ -313,9 +319,9 @@ h2 {
 }
 
 .fifth-tip p {
-    border: 1px solid #4B0082;
+    border: 3px solid white;
+    ;
     border-radius: 10px;
-    border-style: none;
     box-shadow: 20px 20px 5px gray;
     color: #4B0082;
     text-align: center;
@@ -329,9 +335,9 @@ h2 {
 }
 
 .sixth-tip p {
-    border: 1px solid #4B0082;
+    border: 3px solid white;
+    ;
     border-radius: 10px;
-    border-style: none;
     box-shadow: 20px 20px 5px gray;
     color: #4B0082;
     text-align: center;
@@ -345,9 +351,8 @@ h2 {
 }
 
 .seventh-tip p {
-    border: 1px solid #4B0082;
+    border: 3px solid white;
     border-radius: 10px;
-    border-style: none;
     box-shadow: 20px 20px 5px gray;
     color: #4B0082;
     text-align: center;
@@ -358,6 +363,7 @@ h2 {
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 200px;
+
 }
 
 /* community trips */
@@ -374,6 +380,7 @@ h2 {
     border-radius: 15px;
     text-shadow: 5px 5px 8px gray;
 
+
 }
 
 #text-trips {
@@ -386,6 +393,7 @@ h2 {
     margin-right: 10px;
     margin-bottom: 15px;
     background: #AAF0D1;
+    border: 3px solid white;
 }
 
 #own-choice {
@@ -438,8 +446,7 @@ h2 {
 #top-about-text {
     color: #4B0082;
     font-size: 150%;
-    border: 1px solid #AAF0D1;
-    border-style: none;
+    border: 3px solid white;
     margin-left: 200px;
     margin-right: 300px;
     margin-bottom: 15px;
@@ -449,14 +456,13 @@ h2 {
     box-shadow: 5px 5px 8px gray;
     text-shadow: 5px 5px 8px gray;
     text-align: center;
-    
+
 }
 
 #center-about-text {
     color: #4B0082;
     font-size: 150%;
-    border: 1px solid #AAF0D1;
-    border-style: none;
+    border: 3px solid white;
     margin-left: 200px;
     margin-right: 300px;
     margin-bottom: 15px;
@@ -471,8 +477,7 @@ h2 {
 #bottom-about-text {
     color: #4B0082;
     font-size: 150%;
-    border: 1px solid #AAF0D1;
-    border-style: none;
+    border: 3px solid white;
     margin-left: 200px;
     margin-right: 300px;
     margin-bottom: 15px;
@@ -519,6 +524,7 @@ form {
     border-style: none;
     box-shadow: 15px 15px 5px gray;
     border-radius: 15px;
+    border: 3px solid white;
     text-shadow: 5px 5px 8px gray;
     margin-left: 50px;
     margin-right: 50px;
@@ -583,6 +589,7 @@ footer #social-links {
     background: #AAF0D1;
     text-transform: uppercase;
     font-size: 110%;
+    border: 3px solid white;
     box-shadow: -15px -15px 10px gray;
 }
 
