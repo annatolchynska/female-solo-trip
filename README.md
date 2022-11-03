@@ -47,7 +47,7 @@ Users of this website will be able to find all the information they need about s
    * Let's Connect section has a form to collect details from women so they can choose travel partner from The Community.
    * the form collects User's name, email address, destination and dates of future trip.
    * Let's connect section gives Solo Female travellers safe way to find a travel partner.
-   <img src="./assets/css/images/lets connect.png" alt="le's connect section screenshot">
+   <img src="./assets/css/images/lets-connect.png" alt="let's connect section screenshot">
 
    ---
 * ### Contacts section
