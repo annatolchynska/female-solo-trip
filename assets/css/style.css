@@ -633,8 +633,7 @@ footer #social-links {
 }
 
 /* media queries */
-/* for sreens size from 1200px and down */
-@media screen and (max-width: 1200px) {}
+
 
 /* for sreens size from 950px and down */
 @media screen and (max-width: 950px) {
@@ -938,19 +937,135 @@ footer #social-links {
     /* for sreens size from 500px and down */
     @media screen and (max-width: 500px) {
         #menu li {
-            font-size: 60%;
+            clear: left;
             float: left;
+            margin-left: 10px;
         }
 
         #logo {
             font-size: 150%;
         }
 
+        #destinations {
+            margin-left: 30px;
+            margin-right: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 100%;
+
+        }
+
+        #hotel-nights {
+            font-size: 100%;
+            padding-left: 20px;
+            padding-right: 30px;
+        }
+
+        #research {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 30px;
+            font-size: 100%;
+
+        }
+
+        #wifi {
+
+            padding-left: 20px;
+            padding-right: 30px;
+            font-size: 100%;
+            margin-left: 80px;
+
+        }
+
+        #passport {
+
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 100%;
+            margin-left: 80px;
+        }
+
+        #suitcase {
+
+            font-size: 100%;
+            padding-left: 30px;
+            padding-right: 20px;
+            margin-right: 70px;
+        }
+
+        #danger {
+            font-size: 100%;
+            margin-right: 60px;
+            text-align: justify;
+        }
+
+        .tips p {
+
+            font-size: 120%;
+        }
+
+        .second-tips p {
+            font-size: 120%;
+
+        }
+
+        .third-tip p {
+
+            margin-top: 30px;
+        }
+
+        .fourth-tip p {
+
+            margin-top: 10px;
+        }
+
+        .fifth-tip p {
+
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+
+        .sixth-tip p {
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        .seventh-tip p {
+            margin-top: 30px;
+            margin-bottom: 5px;
+        }
+
+        #community-trips h2 {
+            margin-bottom: 30px;
+        }
+
+        #top-about-text {
+            font-size: 100%;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        #center-about-text {
+            font-size: 100%;
+            margin-left: 20px;
+            margin-right: 20px;
+
+        }
+
+        #bottom-about-text {
+            font-size: 100%;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .trips {
+            font-size: 130%;
+        }
+
         #submit-button {
             margin-left: 20px;
         }
-
-
 
         label {
             text-align: center;
