@@ -18,9 +18,7 @@ body {
     font-size: 230%;
     padding-left: 10px;
     text-shadow: 4px 4px 3px white;
-
 }
-
 
 h1,
 h2 {
@@ -36,7 +34,6 @@ h2 {
     text-transform: lowercase;
     font-size: 130%;
     text-shadow: 5px 5px 8px #4B0082;
-
 }
 
 /*this part of code was taken from the Love running project*/
@@ -56,17 +53,13 @@ h2 {
     color: #4B0082;
     font: bolder;
     font-size: 110%;
-
 }
 
 #menu a:hover {
     color: #AAF0D1;
-
-
 }
 
 /*hero image and cover-text */
-
 .hero-image {
     height: 600px;
     width: 100%;
@@ -74,8 +67,6 @@ h2 {
     background-size: cover;
     top: 0;
     left: 0;
-
-
 }
 
 .cover-text {
@@ -84,6 +75,7 @@ h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    text-shadow: 5px 5px 8px #4B0082;
 
     width: 550px;
     height: 100px;
@@ -93,11 +85,12 @@ h2 {
     top: 400px;
     left: 50px;
     object-fit: cover;
+
     background-color: rgba(255, 126, 0, .3);
     border: 1px solid #FF7E00;
     box-shadow: -15px -15px 5px gray;
     border-style: hidden;
-    text-shadow: 5px 5px 8px #4B0082;
+
 }
 
 /* main theme */
@@ -285,7 +278,6 @@ h2 {
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 100px;
-
 }
 
 .third-tip p {
@@ -302,7 +294,6 @@ h2 {
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 150px;
-
 }
 
 .fourth-tip p {
@@ -319,7 +310,6 @@ h2 {
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 150px;
-
 }
 
 .fifth-tip p {
@@ -352,7 +342,6 @@ h2 {
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 150px;
-
 }
 
 .seventh-tip p {
@@ -369,17 +358,12 @@ h2 {
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 200px;
-
 }
 
 /* community trips */
-
-
-
 #community-trips h2 {
     text-align: center;
     padding: 10px;
-
 }
 
 .trips {
@@ -389,7 +373,6 @@ h2 {
     font-size: 150%;
     border-radius: 15px;
     text-shadow: 5px 5px 8px gray;
-
 
 }
 
@@ -416,10 +399,6 @@ h2 {
 
 }
 
-
-
-
-
 #top-about {
 
     background: url("..//css/images/ams.jpeg") no-repeat;
@@ -429,9 +408,6 @@ h2 {
     box-shadow: -15px 15px 8px gray;
     border-radius: 15px;
     margin-bottom: 30px;
-
-
-
 
 }
 
@@ -457,12 +433,7 @@ h2 {
     border-radius: 15px;
     margin-bottom: 30px;
 
-
-
-
-
 }
-
 
 #top-about-text {
     color: #4B0082;
@@ -478,6 +449,7 @@ h2 {
     box-shadow: 5px 5px 8px gray;
     text-shadow: 5px 5px 8px gray;
     text-align: center;
+    
 }
 
 #center-about-text {
@@ -510,9 +482,7 @@ h2 {
     box-shadow: 5px 5px 8px gray;
     text-shadow: 5px 5px 8px gray;
     text-align: center;
-
 }
-
 
 /*form let's connect */
 #lets-connect {
@@ -553,8 +523,6 @@ form {
     margin-left: 50px;
     margin-right: 50px;
 
-
-
 }
 
 label {
@@ -563,7 +531,6 @@ label {
     text-align: right;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 #submit-button {
@@ -633,8 +600,6 @@ footer #social-links {
 }
 
 /* media queries */
-
-
 /* for sreens size from 950px and down */
 @media screen and (max-width: 950px) {
 
@@ -785,6 +750,16 @@ footer #social-links {
         left: 50px;
     }
 
+    .main-theme {
+        font-size: 100%;
+        letter-spacing: 2px;
+    }
+
+    #lifehacks {
+        font-size: 100%;
+    }
+
+    /* Lifehack section */
     #destinations {
         margin-left: 70px;
         margin-right: 40px;
@@ -884,6 +859,16 @@ footer #social-links {
         text-shadow: 10px 10px 15px #c8a2c8;
     }
 
+    /*community-trips section */
+
+    .trips {
+        font-size: 100%;
+    }
+
+    #own-choice {
+        font-size: 100%;
+    }
+
     #top-about-text {
         font-size: 130%;
         margin-left: 100px;
@@ -903,31 +888,15 @@ footer #social-links {
         margin-right: 100px;
     }
 
+    /* form section */
     #lets-connect {
         margin: 20px;
         padding: 10px;
         clear: both;
     }
 
-    .main-theme {
-        font-size: 100%;
-        letter-spacing: 2px;
-    }
-
-    #lifehacks {
-        font-size: 100%;
-    }
-
     #lets-connect p {
         font-size: 80%;
-    }
-
-    .trips {
-        font-size: 100%;
-    }
-
-    #own-choice {
-        font-size: 100%;
     }
 
     #submit-button {
@@ -945,10 +914,13 @@ footer #social-links {
         #logo {
             font-size: 150%;
         }
+
         .cover-text {
             font-size: 60%;
             text-shadow: 2px 2px 10px #4B0082;
         }
+
+        /* Lifehack section */
         #destinations {
             margin-left: 20px;
             margin-right: 20px;
@@ -981,7 +953,7 @@ footer #social-links {
             padding-right: 30px;
             font-size: 100%;
             margin-left: 50px;
-            
+
         }
 
         #passport {
@@ -1046,6 +1018,7 @@ footer #social-links {
             margin-bottom: 30px;
         }
 
+        /* community-trips section*/
         #community-trips h2 {
             margin-bottom: 30px;
         }
@@ -1073,6 +1046,7 @@ footer #social-links {
             font-size: 130%;
         }
 
+        /*form section*/
         #submit-button {
             margin-left: 20px;
             text-shadow: 2px 2px 10px #4B0082;
