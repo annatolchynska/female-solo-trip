@@ -16,7 +16,7 @@ body {
 #logo {
     float: left;
     font-size: 230%;
-     padding-left: 10px;
+    padding-left: 10px;
     text-shadow: 4px 4px 3px white;
 
 }
@@ -36,12 +36,15 @@ h2 {
     text-transform: lowercase;
     font-size: 130%;
     text-shadow: 5px 5px 8px #4B0082;
-   
+
 }
+
 /*this part of code was taken from the Love running project*/
-#menu, #logo {
-line-height: 75px;
+#menu,
+#logo {
+    line-height: 75px;
 }
+
 #menu li {
     list-style-type: none;
     float: right;
@@ -52,12 +55,13 @@ line-height: 75px;
     text-decoration: none;
     color: #4B0082;
     font: bolder;
+    font-size: 110%;
 
 }
 
 #menu a:hover {
     color: #AAF0D1;
-    background: gray;
+
 
 }
 
@@ -115,8 +119,11 @@ line-height: 75px;
     background: rgba(170, 240, 209, .3);
 }
 
-#main-theme h2 {text-align: center;
-text-shadow: 2px 2px #FF7E00;}
+#main-theme h2 {
+    text-align: center;
+    text-shadow: 2px 2px #FF7E00;
+}
+
 /* lifehacks*/
 .lifehacks {
     text-align: center;
@@ -252,13 +259,13 @@ text-shadow: 2px 2px #FF7E00;}
     border: 1px solid #4B0082;
     border-radius: 10px;
     border-style: none;
-    box-shadow: 20px 20px 5px gray;
+    box-shadow: 20px 20px 10px gray;
     color: #4B0082;
     text-align: center;
     padding: 20px;
     font-size: 150%;
     background-color: rgba(255, 126, 0, .3);
-    text-shadow: 10px 10px 5px gray;
+    text-shadow: 10px 10px 10px #c8a2c8;
     margin-left: 350px;
     margin-right: 350px;
     margin-bottom: 30px;
@@ -268,13 +275,13 @@ text-shadow: 2px 2px #FF7E00;}
     border: 1px solid #4B0082;
     border-radius: 10px;
     border-style: none;
-    box-shadow: 20px -20px 5px gray;
+    box-shadow: 20px -20px 10px gray;
     color: #4B0082;
     text-align: center;
     padding: 20px;
     font-size: 150%;
     background-color: rgba(255, 126, 0, .3);
-    text-shadow: 10px 10px 5px gray;
+    text-shadow: 10px 10px 10px #c8a2c8;
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 100px;
@@ -291,7 +298,7 @@ text-shadow: 2px 2px #FF7E00;}
     padding: 20px;
     font-size: 150%;
     background-color: rgba(255, 126, 0, .3);
-    text-shadow: 10px 10px 5px gray;
+    text-shadow: 10px 10px 10px #c8a2c8;
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 150px;
@@ -308,7 +315,7 @@ text-shadow: 2px 2px #FF7E00;}
     padding: 20px;
     font-size: 150%;
     background-color: rgba(255, 126, 0, .3);
-    text-shadow: 10px 10px 5px gray;
+    text-shadow: 10px 10px 10px #c8a2c8;
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 150px;
@@ -325,7 +332,7 @@ text-shadow: 2px 2px #FF7E00;}
     padding: 20px;
     font-size: 150%;
     background-color: rgba(255, 126, 0, .3);
-    text-shadow: 10px 10px 5px gray;
+    text-shadow: 10px 10px 10px #c8a2c8;
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 100px;
@@ -341,7 +348,7 @@ text-shadow: 2px 2px #FF7E00;}
     padding: 20px;
     font-size: 150%;
     background-color: rgba(255, 126, 0, .3);
-    text-shadow: 10px 10px 5px gray;
+    text-shadow: 10px 10px 10px #c8a2c8;
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 150px;
@@ -358,7 +365,7 @@ text-shadow: 2px 2px #FF7E00;}
     padding: 20px;
     font-size: 150%;
     background-color: rgba(255, 126, 0, .3);
-    text-shadow: 10px 10px 5px gray;
+    text-shadow: 10px 10px 10px #c8a2c8;
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 200px;
@@ -528,6 +535,7 @@ text-shadow: 2px 2px #FF7E00;}
     padding-top: 30px;
     text-shadow: 5px 5px 8px #4B0082;
 }
+
 /* the part of code was taken from Love running project*/
 form {
     font-size: 120%;
@@ -626,486 +634,289 @@ footer #social-links {
 
 /* media queries */
 /* for sreens size from 1200px and down */
-@media screen and (max-width: 1200px) {
-
-}
+@media screen and (max-width: 1200px) {}
 
 /* for sreens size from 950px and down */
 @media screen and (max-width: 950px) {
-    
-    
-    #destinations {
-        margin-left: 70px;
-        margin-right: 40px;
-        background-color: rgba(170, 240, 209, .3);
-        padding: 30px;
-        text-align: justify;
-        padding-left: 70px;
-        padding-right: 40px;
-    
-    }
-    
-    .img-hotel {
-        float: right;
-        clear: both;
-        margin-right: 20px;
-        border-radius: 15px;
-        box-shadow: -8px -8px 5px gray;
-    }
-    
-    #hotel-nights {
-        margin-left: 120px;
-        margin-right: 70px;
-        background-color: rgba(170, 240, 209, .3);
-        padding-left: 50px;
-        padding-right: 320px;
-        text-align: justify;
-    }
-    
-    .img-research {
-        float: left;
-        clear: both;
-        margin-left: 20px;
-        border-radius: 15px;
-        box-shadow: 8px 8px 5px gray;
-    }
-    
-    #research {
-        margin-left: 150px;
-        margin-right: 70px;
-        background-color: rgba(170, 240, 209, .3);
-        margin-bottom: 100px;
-        padding-left: 250px;
-        padding-right: 70px;
-        text-align: justify;
-    }
-    
-    .img-wifi {
-        float: right;
-        clear: both;
-        margin-right: 20px;
-        border-radius: 15px;
-        box-shadow: -8px 8px 5px gray;
-    }
-    
-    #wifi {
-        margin-left: 150px;
-        margin-right: 70px;
-        background-color: rgba(170, 240, 209, .3);
-        margin-bottom: 150px;
-        padding-left: 70px;
-        padding-right: 300px;
-        text-align: justify;
-    }
-    
-    .img-passport {
-        float: left;
-        clear: both;
-        margin-left: 15px;
-        border-radius: 15px;
-        box-shadow: 8px 8px 5px gray;
-    }
-    
-    #passport {
-        margin-left: 200px;
-        margin-right: 60px;
-        background-color: rgba(170, 240, 209, .3);
-        margin-bottom: 100px;
-        padding-left: 150px;
-        padding-right: 70px;
-        text-align: justify;
-    }
-    
-    .img-suitcase {
-        float: right;
-        clear: both;
-        margin-right: 15px;
-        border-radius: 15px;
-        box-shadow: -8px 8px 5px gray;
-    }
-    
-    #suitcase {
-        margin-left: 100px;
-        margin-right: 150px;
-        background-color: rgba(170, 240, 209, .3);
-        margin-bottom: 100px;
-        text-align: justify;
-        padding-left: 50px;
-        padding-right: 250px;
-    }
-    
-    .img-danger {
-        float: left;
-        clear: both;
-        margin-left: 20px;
-        border-radius: 15px;
-        box-shadow: -8px 8px 5px gray;
-    }
-    
-    #danger {
-        margin-left: 100px;
-        margin-right: 150px;
-        background-color: rgba(170, 240, 209, .3);
-        margin-bottom: 250px;
-    }
-    
-    .tips p {
-        border: 1px solid #4B0082;
-        border-radius: 10px;
-        border-style: none;
-        box-shadow: 20px 20px 5px gray;
-        color: #4B0082;
-        text-align: center;
-        padding: 20px;
-        font-size: 150%;
-        background-color: rgba(255, 126, 0, .3);
-        text-shadow: 10px 10px 5px gray;
-        margin-left: 350px;
-        margin-right: 350px;
-        margin-bottom: 30px;
-    }
-    
-    .second-tips p {
-        border: 1px solid #4B0082;
-        border-radius: 10px;
-        border-style: none;
-        box-shadow: 20px -20px 5px gray;
-        color: #4B0082;
-        text-align: center;
-        padding: 20px;
-        font-size: 150%;
-        background-color: rgba(255, 126, 0, .3);
-        text-shadow: 10px 10px 5px gray;
-        margin-left: 350px;
-        margin-right: 350px;
-        margin-top: 100px;
-    
-    }
-    
-    .third-tip p {
-        border: 1px solid #4B0082;
-        border-radius: 10px;
-        border-style: none;
-        box-shadow: 20px 20px 5px gray;
-        color: #4B0082;
-        text-align: center;
-        padding: 20px;
-        font-size: 150%;
-        background-color: rgba(255, 126, 0, .3);
-        text-shadow: 10px 10px 5px gray;
-        margin-left: 350px;
-        margin-right: 350px;
-        margin-top: 150px;
-    
-    }
-    
-    .fourth-tip p {
-        border: 1px solid #4B0082;
-        border-radius: 10px;
-        border-style: none;
-        box-shadow: 20px 20px 5px gray;
-        color: #4B0082;
-        text-align: center;
-        padding: 20px;
-        font-size: 150%;
-        background-color: rgba(255, 126, 0, .3);
-        text-shadow: 10px 10px 5px gray;
-        margin-left: 350px;
-        margin-right: 350px;
-        margin-top: 150px;
-    
-    }
-    
-    .fifth-tip p {
-        border: 1px solid #4B0082;
-        border-radius: 10px;
-        border-style: none;
-        box-shadow: 20px 20px 5px gray;
-        color: #4B0082;
-        text-align: center;
-        padding: 20px;
-        font-size: 150%;
-        background-color: rgba(255, 126, 0, .3);
-        text-shadow: 10px 10px 5px gray;
-        margin-left: 350px;
-        margin-right: 350px;
-        margin-top: 100px;
-    }
-    
-    .sixth-tip p {
-        border: 1px solid #4B0082;
-        border-radius: 10px;
-        border-style: none;
-        box-shadow: 20px 20px 5px gray;
-        color: #4B0082;
-        text-align: center;
-        padding: 20px;
-        font-size: 150%;
-        background-color: rgba(255, 126, 0, .3);
-        text-shadow: 10px 10px 5px gray;
-        margin-left: 350px;
-        margin-right: 350px;
-        margin-top: 150px;
-    
-    }
-    
-    .seventh-tip p {
-        border: 1px solid #4B0082;
-        border-radius: 10px;
-        border-style: none;
-        box-shadow: 20px 20px 5px gray;
-        color: #4B0082;
-        text-align: center;
-        padding: 20px;
-        font-size: 150%;
-        background-color: rgba(255, 126, 0, .3);
-        text-shadow: 10px 10px 5px gray;
-        margin-left: 350px;
-        margin-right: 350px;
-        margin-top: 200px;
-    
-    }    
-}
 
-/* for sreens size from 800px and down */
-@media screen and (max-width: 800px) {
-   
-    .cover-text {
-        
-        font-size: 80%;
-            
-        width: 400px;
-        height: 50px;
-        overflow: hidden;
-        position: relative;
-        top: 200px;
-        left: 50px;
-       }
-        
-    .image {
-        margin: 0 auto;
-        clear: both;
-        border-radius: 15px;
-        box-shadow: 8px 8px 5px gray;
-        
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 20px;
     }
-   
+
     #destinations {
         margin-left: 70px;
         margin-right: 40px;
         padding-left: 50px;
         padding-right: 40px;
         font-size: 120%;
-    
+        text-shadow: 10px 10px 15px #c8a2c8;
     }
-    
-    
+
     #hotel-nights {
         margin-left: 50px;
         margin-right: 40px;
         font-size: 120%;
         padding-left: 50px;
         padding-right: 320px;
-       
+        text-shadow: 10px 10px 15px #c8a2c8;
     }
-        
+
     #research {
         padding-left: 200px;
         padding-right: 30px;
         font-size: 120%;
+        text-shadow: 10px 10px 15px #c8a2c8;
     }
-    
 
     #wifi {
-        
+        text-shadow: 10px 10px 15px #c8a2c8;
         padding-left: 20px;
         padding-right: 270px;
-       font-size: 120%;
+        font-size: 120%;
     }
-    
-    
+
     #passport {
-        
+        text-shadow: 10px 10px 15px #c8a2c8;
         padding-left: 150px;
         padding-right: 70px;
         font-size: 120%;
     }
-    
-    .img-suitcase {
-        float: right;
-        clear: both;
-        margin-right: 15px;
-        border-radius: 15px;
-        box-shadow: -8px 8px 5px gray;
-    }
-    
+
     #suitcase {
-        margin-left: 100px;
-        margin-right: 150px;
-        background-color: rgba(170, 240, 209, .3);
-        margin-bottom: 100px;
-        text-align: justify;
-        padding-left: 50px;
-        padding-right: 250px;
+        text-shadow: 10px 10px 15px #c8a2c8;
+        font-size: 120%;
+        padding-left: 30px;
+        padding-right: 200px;
     }
-    
-    .img-danger {
-        float: left;
-        clear: both;
-        margin-left: 20px;
-        border-radius: 15px;
-        box-shadow: -8px 8px 5px gray;
-    }
-    
+
     #danger {
+        font-size: 120%;
+        text-shadow: 10px 10px 15px #c8a2c8;
+    }
+
+    #top-about-text {
+        font-size: 130%;
         margin-left: 100px;
-        margin-right: 150px;
-        background-color: rgba(170, 240, 209, .3);
-        margin-bottom: 250px;
+        margin-right: 100px;
     }
-    
+
+    #center-about-text {
+        font-size: 130%;
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+
+    #bottom-about-text {
+        font-size: 130%;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
     .tips p {
-        border: 1px solid #4B0082;
-        border-radius: 10px;
-        border-style: none;
-        box-shadow: 20px 20px 5px gray;
-        color: #4B0082;
-        text-align: center;
-        padding: 20px;
-        font-size: 150%;
-        background-color: rgba(255, 126, 0, .3);
-        text-shadow: 10px 10px 5px gray;
-        margin-left: 350px;
-        margin-right: 350px;
-        margin-bottom: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-shadow: 10px 10px 15px #c8a2c8;
     }
-    
+
     .second-tips p {
-        border: 1px solid #4B0082;
-        border-radius: 10px;
-        border-style: none;
-        box-shadow: 20px -20px 5px gray;
-        color: #4B0082;
-        text-align: center;
-        padding: 20px;
         font-size: 150%;
-        background-color: rgba(255, 126, 0, .3);
-        text-shadow: 10px 10px 5px gray;
-        margin-left: 350px;
-        margin-right: 350px;
-        margin-top: 100px;
-    
+        margin-left: 50px;
+        margin-right: 50px;
+        text-shadow: 10px 10px 15px #c8a2c8;
+        margin-top: 70px;
     }
-    
+
     .third-tip p {
-        border: 1px solid #4B0082;
-        border-radius: 10px;
-        border-style: none;
-        box-shadow: 20px 20px 5px gray;
-        color: #4B0082;
-        text-align: center;
-        padding: 20px;
-        font-size: 150%;
-        background-color: rgba(255, 126, 0, .3);
-        text-shadow: 10px 10px 5px gray;
-        margin-left: 350px;
-        margin-right: 350px;
-        margin-top: 150px;
-    
-    }
-    
-    .fourth-tip p {
-        border: 1px solid #4B0082;
-        border-radius: 10px;
-        border-style: none;
-        box-shadow: 20px 20px 5px gray;
-        color: #4B0082;
-        text-align: center;
-        padding: 20px;
-        font-size: 150%;
-        background-color: rgba(255, 126, 0, .3);
-        text-shadow: 10px 10px 5px gray;
-        margin-left: 350px;
-        margin-right: 350px;
-        margin-top: 150px;
-    
-    }
-    
-    .fifth-tip p {
-        border: 1px solid #4B0082;
-        border-radius: 10px;
-        border-style: none;
-        box-shadow: 20px 20px 5px gray;
-        color: #4B0082;
-        text-align: center;
-        padding: 20px;
-        font-size: 150%;
-        background-color: rgba(255, 126, 0, .3);
-        text-shadow: 10px 10px 5px gray;
-        margin-left: 350px;
-        margin-right: 350px;
-        margin-top: 100px;
-    }
-    
-    .sixth-tip p {
-        border: 1px solid #4B0082;
-        border-radius: 10px;
-        border-style: none;
-        box-shadow: 20px 20px 5px gray;
-        color: #4B0082;
-        text-align: center;
-        padding: 20px;
-        font-size: 150%;
-        background-color: rgba(255, 126, 0, .3);
-        text-shadow: 10px 10px 5px gray;
-        margin-left: 350px;
-        margin-right: 350px;
-        margin-top: 150px;
-    
-    }
-    
-    .seventh-tip p {
-        border: 1px solid #4B0082;
-        border-radius: 10px;
-        border-style: none;
-        box-shadow: 20px 20px 5px gray;
-        color: #4B0082;
-        text-align: center;
-        padding: 20px;
-        font-size: 150%;
-        background-color: rgba(255, 126, 0, .3);
-        text-shadow: 10px 10px 5px gray;
-        margin-left: 350px;
-        margin-right: 350px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-shadow: 10px 10px 15px #c8a2c8;
         margin-top: 200px;
-    
-    }    
+    }
+
+    .fourth-tip p {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-shadow: 10px 10px 15px #c8a2c8;
+        margin-top: 200px;
+    }
+
+    .fifth-tip p {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-shadow: 10px 10px 15px #c8a2c8;
+        margin-top: 200px;
+    }
+
+    .sixth-tip p {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-shadow: 10px 10px 15px #c8a2c8;
+        margin-top: 200px;
+    }
+
+    .seventh-tip p {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-shadow: 10px 10px 15px #c8a2c8;
+        margin-top: 250px;
+    }
+
 }
-    
-    
-    
+
+/* for sreens size from 800px and down */
+@media screen and (max-width: 800px) {
+
+
+    #menu li {
+
+        float: left;
+        margin-left: 30px;
+    }
+
+    .cover-text {
+        font-size: 80%;
+        width: 400px;
+        height: 50px;
+        overflow: hidden;
+        position: relative;
+        top: 200px;
+        left: 50px;
+    }
+
+    #destinations {
+        margin-left: 70px;
+        margin-right: 40px;
+        padding-left: 50px;
+        padding-right: 40px;
+        font-size: 120%;
+        text-shadow: 10px 10px 15px #c8a2c8;
+    }
+
+    #hotel-nights {
+        margin-left: 50px;
+        margin-right: 40px;
+        font-size: 120%;
+        padding-left: 50px;
+        padding-right: 320px;
+        text-shadow: 10px 10px 15px #c8a2c8;
+    }
+
+    #research {
+        padding-left: 200px;
+        padding-right: 30px;
+        font-size: 120%;
+        text-shadow: 10px 10px 15px #c8a2c8;
+    }
+
+    #wifi {
+        text-shadow: 10px 10px 15px #c8a2c8;
+        padding-left: 20px;
+        padding-right: 270px;
+        font-size: 120%;
+    }
+
+    #passport {
+        text-shadow: 10px 10px 15px #c8a2c8;
+        padding-left: 150px;
+        padding-right: 70px;
+        font-size: 120%;
+    }
+
+    #suitcase {
+        text-shadow: 10px 10px 15px #c8a2c8;
+        font-size: 120%;
+        padding-left: 30px;
+        padding-right: 200px;
+    }
+
+    #danger {
+        font-size: 120%;
+        text-shadow: 10px 10px 15px #c8a2c8;
+    }
+
+    .tips p {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-shadow: 10px 10px 15px #c8a2c8;
+    }
+
+    .second-tips p {
+        font-size: 150%;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-shadow: 10px 10px 15px #c8a2c8;
+        margin-top: 30px;
+    }
+
+    .third-tip p {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-shadow: 10px 10px 15px #c8a2c8;
+        margin-top: 70px;
+    }
+
+    .fourth-tip p {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-shadow: 10px 10px 15px #c8a2c8;
+        margin-top: 30px;
+    }
+
+    .fifth-tip p {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-shadow: 10px 10px 15px #c8a2c8;
+        margin-top: 30px;
+    }
+
+    .sixth-tip p {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-shadow: 10px 10px 15px #c8a2c8;
+        margin-top: 30px;
+    }
+
+    .seventh-tip p {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-shadow: 10px 10px 15px #c8a2c8;
+    }
+
+    #top-about-text {
+        font-size: 130%;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #center-about-text {
+        font-size: 130%;
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+
+    #bottom-about-text {
+        font-size: 130%;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
     #lets-connect {
         margin: 20px;
         padding: 10px;
         clear: both;
     }
 
-
-
-    
-
     .main-theme {
         font-size: 100%;
         letter-spacing: 2px;
-    
     }
 
     #lifehacks {
         font-size: 100%;
-    }
-
-
-
     }
 
     #lets-connect p {
@@ -1120,31 +931,28 @@ footer #social-links {
         font-size: 100%;
     }
 
-    
-
     #submit-button {
         margin-left: 200px;
     }
 
+    /* for sreens size from 500px and down */
+    @media screen and (max-width: 500px) {
+        #menu li {
+            font-size: 60%;
+            float: left;
+        }
 
-/* for sreens size from 500px and down */
-@media screen and (max-width: 500px) {
-    #menu li {
-        font-size: 60%;
-        float: left;
-    }
-
-    #logo {
-        font-size: 150%;
-    }
+        #logo {
+            font-size: 150%;
+        }
 
         #submit-button {
-        margin-left: 20px;
-    }
+            margin-left: 20px;
+        }
 
-   
 
-    label {
-        text-align: center;
+
+        label {
+            text-align: center;
+        }
     }
-}
