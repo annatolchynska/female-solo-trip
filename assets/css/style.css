@@ -945,9 +945,12 @@ footer #social-links {
         #logo {
             font-size: 150%;
         }
-
+        .cover-text {
+            font-size: 60%;
+            text-shadow: 2px 2px 10px #4B0082;
+        }
         #destinations {
-            margin-left: 30px;
+            margin-left: 20px;
             margin-right: 20px;
             padding-left: 10px;
             padding-right: 10px;
@@ -959,12 +962,15 @@ footer #social-links {
             font-size: 100%;
             padding-left: 20px;
             padding-right: 30px;
+            margin-right: 20px;
+            margin-left: 10px;
         }
 
         #research {
             padding-left: 20px;
             padding-right: 20px;
             margin-left: 30px;
+            margin-right: 10px;
             font-size: 100%;
 
         }
@@ -974,8 +980,8 @@ footer #social-links {
             padding-left: 20px;
             padding-right: 30px;
             font-size: 100%;
-            margin-left: 80px;
-
+            margin-left: 50px;
+            
         }
 
         #passport {
@@ -983,7 +989,9 @@ footer #social-links {
             padding-left: 20px;
             padding-right: 20px;
             font-size: 100%;
-            margin-left: 80px;
+            margin-left: 70px;
+            margin-right: 20px;
+            margin-bottom: 10px;
         }
 
         #suitcase {
@@ -996,8 +1004,10 @@ footer #social-links {
 
         #danger {
             font-size: 100%;
-            margin-right: 60px;
+            margin-right: 40px;
             text-align: justify;
+            margin-left: 40px;
+            margin-bottom: 15px;
         }
 
         .tips p {
@@ -1023,17 +1033,17 @@ footer #social-links {
         .fifth-tip p {
 
             margin-top: 10px;
-            margin-bottom: 0;
+            margin-bottom: 20px;
         }
 
         .sixth-tip p {
-            margin-top: 30px;
-            margin-bottom: 10px;
+            margin-top: 20px;
+            margin-bottom: 30px;
         }
 
         .seventh-tip p {
-            margin-top: 30px;
-            margin-bottom: 5px;
+            margin-top: 10px;
+            margin-bottom: 30px;
         }
 
         #community-trips h2 {
@@ -1065,9 +1075,11 @@ footer #social-links {
 
         #submit-button {
             margin-left: 20px;
+            text-shadow: 2px 2px 10px #4B0082;
         }
 
         label {
             text-align: center;
         }
-    }}
+    }
+}
